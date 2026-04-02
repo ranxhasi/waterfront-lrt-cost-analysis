@@ -1,0 +1,732 @@
+
+  ___  ____  ____  ____  ____ ®
+ /__    /   ____/   /   ____/      StataNow 19.5
+___/   /   /___/   /   /___/       BE—Basic Editio
+> n
+
+ Statistics and Data Science       Copyright 1985-
+> 2025 StataCorp LLC
+                                   StataCorp
+                                   4905 Lakeway Dr
+> ive
+                                   College Station
+> , Texas 77845 USA
+                                   800-782-8272   
+>      https://www.stata.com
+                                   979-696-4600   
+>      service@stata.com
+
+Stata license: Single-user , expiring  7 Aug 2026
+Serial number: 301909324091
+  Licensed to: Simeon Ranxha
+               University of Toronto
+
+Notes:
+      1. Stata is running in batch mode.
+      2. Unicode is supported; see help
+          unicode_advice.
+
+. do waterfront_analysis.do 
+
+. /*==============================================
+> ================================
+>   Toronto Transit: Waterfront LRT Blog Analysis 
+> (Revised)
+>   Mandates: cd at top, relative paths, simple co
+> de, minimal macros.
+> ================================================
+> ==============================*/
+. 
+. clear all
+
+. set more off
+
+. cd "/Users/ranxhasi/Desktop/Blog"
+/Users/ranxhasi/Desktop/Blog
+
+. 
+. * 2. Constants & Conversions
+. * Both cost figures ($3B total, $932M Union loop
+> ) treated as 2025 CAD.
+. * PPP rate = 0.84, matching World Bank Price Lev
+> el Ratio (PA.NUS.PPPC.RF) for
+. * Canada: 0.840 in 2024 (most recent available; 
+> used as 2025 proxy). This is
+. * the same indicator used for all other Canadian
+>  projects in this dataset.
+. * No inflation adjustment needed since costs are
+>  already in 2025 dollars.
+. * Source: https://data.worldbank.org/indicator/P
+> A.NUS.PPPC.RF?locations=CA
+. local total_per_km  = (3000 * 0.84) / 3.8
+
+. local bypass_per_km = (932  * 0.84) / 3.8
+
+. local base_per_km   = `total_per_km' - `bypass_p
+> er_km'
+
+. 
+. * 3. Load and Clean
+. import delimited "Merged Costs (1.4) - Sheet1.cs
+> v", rowrange(2) varnames(2) bindquote(strict) en
+> coding("utf-8") clear
+(33 vars, 1,091 obs)
+
+. 
+. rename costkm2025dollars cost_km_2025
+
+. rename tunnelper tunnel_pct
+
+. 
+. destring cost_km_2025 tunnel_pct year rr startye
+> ar endyear, ignore(", %") replace force
+cost_km_2025: contains nonnumeric characters not s
+> pecified in ignore()
+cost_km_2025: character , removed; replaced as dou
+> ble
+(66 missing values generated)
+tunnel_pct: contains nonnumeric characters not spe
+> cified in ignore()
+tunnel_pct: characters space % removed; replaced a
+> s double
+(77 missing values generated)
+year already numeric; no replace
+rr: contains nonnumeric characters not specified i
+> n ignore(); replaced as byte
+(49 missing values generated)
+startyear: contains nonnumeric characters not spec
+> ified in ignore()
+startyear: character space removed; replaced as in
+> t
+(100 missing values generated)
+endyear: contains nonnumeric characters not specif
+> ied in ignore()
+endyear: character space removed; replaced as int
+(221 missing values generated)
+
+. replace line = "Eglinton West Ext" if line == "E
+> glinton Crosstown" & year == 2022
+(1 real change made)
+
+. assert tunnel_pct >= 0 & tunnel_pct <= 100 if !m
+> issing(tunnel_pct)
+
+. 
+. * Save cleaned data for internal use (avoids re-
+> loading CSV)
+. save "cleaned_data.dta", replace
+file cleaned_data.dta saved
+
+. 
+. * ==============================================
+> ================================
+. * FIGURE 1: Toronto Dumbbell Plot
+. * ==============================================
+> ================================
+. use "cleaned_data.dta", clear
+
+. keep if city == "Toronto"
+(1,083 observations deleted)
+
+. keep line cost_km_2025 tunnel_pct year ppprate s
+> ource2 reference
+
+. 
+. gen cost_start = cost_km_2025
+
+. gen cost_end = cost_km_2025
+
+. 
+. set obs `=_N + 1'
+Number of observations (_N) was 8, now 9.
+
+. replace line = "Waterfront LRT (Proposed)" in L
+(1 real change made)
+
+. replace cost_start = `base_per_km' in L
+(1 real change made)
+
+. replace cost_end = `total_per_km' in L
+(1 real change made)
+
+. replace tunnel_pct = 0 in L
+(1 real change made)
+
+. 
+. gsort cost_end
+
+. gen y = _n
+
+. local y_labels ""
+
+. forvalues i = 1/`=_N' {
+  2.     local lab = line[`i']
+  3.     local y_labels `"`y_labels' `i' "`lab'""'
+  4. }
+
+. 
+. twoway (rspike cost_start cost_end y, horizontal
+>  lcolor(gs12) lwidth(vthin)) ///
+>        (scatter y cost_start if line != "Waterfr
+> ont LRT (Proposed)", mcolor("26 44 77") msize(me
+> dium)) ///
+>        (scatter y cost_start if line == "Waterfr
+> ont LRT (Proposed)", mcolor("26 44 77") msize(la
+> rge)) ///
+>        (scatter y cost_end if line == "Waterfron
+> t LRT (Proposed)", mcolor("179 27 27") msize(lar
+> ge)), ///
+>     ytitle("") ylabel(`y_labels', angle(0) notic
+> ks nogrid labsize(vsmall)) ///
+>     xlabel(0(500)2500) xtitle("Cost per km (Mill
+> ions, 2025 USD PPP)") ///
+>     title("Waterfront LRT: The Union Loop Premiu
+> m", color("26 44 77")) ///
+>     legend(off) scheme(s2color) graphregion(colo
+> r(white) margin(l=10 r=10))
+
+. graph export "output/fig1_toronto_dumbbell.png",
+>  replace width(1600)
+file
+    /Users/ranxhasi/Desktop/Blog/output/fig1_tor
+    > onto_dumbbell.png saved as PNG format
+
+. 
+. * ==============================================
+> ================================
+. * FIGURE 4: Toronto Scatter
+. * ==============================================
+> ================================
+. * Note: cost_end here refers to the total cost (
+> with loop)
+. gen mpos4 = 3
+
+. replace mpos4 = 11 if inlist(line, "YUS/YNSE", "
+> Sheppard")
+(2 real changes made)
+
+. replace mpos4 = 5 if line == "Bloor/SSE"
+(1 real change made)
+
+. replace mpos4 = 9 if inlist(line, "YUS", "Eglint
+> on West Ext")
+(2 real changes made)
+
+. 
+. twoway (scatter cost_end tunnel_pct if line != "
+> Waterfront LRT (Proposed)", mcolor("26 44 77") m
+> size(medium) mlabel(line) mlabsize(vsmall) mlabv
+> (mpos4) mlabcolor("26 44 77")) ///
+>        (scatter cost_end tunnel_pct if line == "
+> Waterfront LRT (Proposed)", mcolor("179 27 27") 
+> msize(large) mlabel(line) mlabsize(small) mlabpo
+> s(3) mlabcolor("179 27 27")), ///
+>     ytitle("Cost per km (Millions, 2025 USD PPP)
+> ") xtitle("Proportion Underground (%)") ///
+>     title("Toronto Transit: Complexity vs. Cost"
+> , color("26 44 77")) ///
+>     xlabel(0(20)100) legend(off) scheme(s2color)
+>  graphregion(color(white) margin(l=10 r=10))
+
+. graph export "output/fig4_toronto_scatter.png", 
+> replace width(1600)
+file
+    /Users/ranxhasi/Desktop/Blog/output/fig4_tor
+    > onto_scatter.png saved as PNG format
+
+. 
+. * ==============================================
+> ================================
+. * FIGURE 2: Global LRT Lollipop
+. * ==============================================
+> ================================
+. use "cleaned_data.dta", clear
+
+. keep if rr == 0 & year >= 2010 & inlist(country,
+>  "US", "CA")
+(1,050 observations deleted)
+
+. keep if tunnel_pct < 25
+(20 observations deleted)
+
+. 
+. gen keep_proj = 0
+
+. replace keep_proj = 1 if city == "Honolulu" & li
+> ne == "HART"
+(1 real change made)
+
+. replace keep_proj = 1 if city == "Mississauga" &
+>  strpos(line, "Hazel")
+(1 real change made)
+
+. replace keep_proj = 1 if city == "Edmonton" & st
+> rpos(line, "Valley Line Ext")
+(1 real change made)
+
+. replace keep_proj = 1 if city == "Montreal" & li
+> ne == "PSE"
+(1 real change made)
+
+. replace keep_proj = 1 if city == "Hamilton"
+(1 real change made)
+
+. replace keep_proj = 1 if city == "Calgary" & str
+> pos(line, "Green Line")
+(1 real change made)
+
+. replace keep_proj = 1 if city == "Ottawa" & strp
+> os(line, "Confederation") & id=="7117"
+(1 real change made)
+
+. keep if keep_proj == 1
+(14 observations deleted)
+
+. 
+. set obs `=_N + 1'
+Number of observations (_N) was 7, now 8.
+
+. replace city = "Toronto" in L
+(1 real change made)
+
+. replace line = "Waterfront LRT" in L
+(1 real change made)
+
+. replace cost_km_2025 = `total_per_km' in L
+(1 real change made)
+
+. replace tunnel_pct = 0 in L
+(1 real change made)
+
+. 
+. gen plot_label = city + ": " + line
+
+. gsort cost_km_2025
+
+. gen y = _n
+
+. local y_labels2 ""
+
+. forvalues i = 1/`=_N' {
+  2.     local lab = plot_label[`i']
+  3.     local y_labels2 `"`y_labels2' `i' "`lab'"
+> "'
+  4. }
+
+. 
+. twoway (dropline cost_km_2025 y, horizontal lcol
+> or(gs13)) ///
+>        (scatter y cost_km_2025 if city != "Toron
+> to", mcolor("26 44 77") msize(medium)) ///
+>        (scatter y cost_km_2025 if city == "Toron
+> to", mcolor("179 27 27") msize(large) mlabel(cos
+> t_km_2025) mlabpos(3) mlabcolor("179 27 27") mla
+> bformat(%9.0f) mlabsize(vsmall)), ///
+>     ytitle("") ylabel(`y_labels2', angle(0) noti
+> cks nogrid labsize(vsmall)) ///
+>     xlabel(0(200)1000) xtitle("Cost per km (Mill
+> ions, 2025 USD PPP)") ///
+>     title("Waterfront LRT vs. LRT Peers", color(
+> "26 44 77")) ///
+>     legend(off) scheme(s2color) graphregion(colo
+> r(white) margin(l=10 r=10))
+
+. graph export "output/fig2_lrt_lollipop.png", rep
+> lace width(1600)
+file
+    /Users/ranxhasi/Desktop/Blog/output/fig2_lrt
+    > _lollipop.png saved as PNG format
+
+. 
+. * ==============================================
+> ================================
+. * FIGURE 5: Global LRT Scatter
+. * ==============================================
+> ================================
+. gen mpos5 = 3
+
+. replace mpos5 = 3 if city == "Honolulu"
+(0 real changes made)
+
+. replace mpos5 = 5 if city == "Mississauga"
+(1 real change made)
+
+. replace mpos5 = 5 if city == "Hamilton"
+(1 real change made)
+
+. 
+. twoway (scatter cost_km_2025 tunnel_pct if city 
+> != "Toronto", mcolor("26 44 77") msize(medium) m
+> label(plot_label) mlabsize(vsmall) mlabv(mpos5) 
+> mlabcolor("26 44 77")) ///
+>        (scatter cost_km_2025 tunnel_pct if city 
+> == "Toronto", mcolor("179 27 27") msize(large) m
+> label(plot_label) mlabsize(small) mlabpos(3) mla
+> bcolor("179 27 27")), ///
+>     ytitle("Cost per km (Millions, 2025 USD PPP)
+> ") xtitle("Proportion Underground (%)") ///
+>     title("International Surface Transit Compari
+> son", color("26 44 77")) ///
+>     xlabel(0(20)100) legend(off) scheme(s2color)
+>  graphregion(color(white) margin(l=10 r=10))
+
+. graph export "output/fig5_lrt_global_scatter.png
+> ", replace width(1600)
+file
+    /Users/ranxhasi/Desktop/Blog/output/fig5_lrt
+    > _global_scatter.png saved as PNG format
+
+. 
+. * ==============================================
+> ================================
+. * FIGURE 3: Subway Lollipop
+. * ==============================================
+> ================================
+. use "cleaned_data.dta", clear
+
+. keep if rr == 0
+(130 observations deleted)
+
+. 
+. gen keep_fig3 = 0
+
+. replace keep_fig3 = 1 if tunnel_pct > 80 & inlis
+> t(country, "US", "CA", "DE", "FR")
+(44 real changes made)
+
+. replace keep_fig3 = 1 if city == "Toronto" & inl
+> ist(line, "Eglinton Crosstown", "Finch West LRT"
+> )
+(2 real changes made)
+
+. 
+. * Narrow down to specific peers used in original
+. keep if keep_fig3 == 1
+(915 observations deleted)
+
+. gen select = 0
+
+. replace select = 1 if city == "Los Angeles" & li
+> ne == "Purple Line" & cost_km_2025 > 600 & cost_
+> km_2025 < 700
+(1 real change made)
+
+. replace select = 1 if city == "Vancouver" & line
+>  == "Millennium"
+(1 real change made)
+
+. replace select = 1 if city == "Paris" & line == 
+> "Line 14"
+(1 real change made)
+
+. replace select = 1 if city == "Seattle" & line =
+> = "U-Link"
+(1 real change made)
+
+. replace select = 1 if city == "Berlin" & strpos(
+> line, "U5-U55")
+(1 real change made)
+
+. replace select = 1 if line == "Eglinton Crosstow
+> n" & cost_km_2025 > 700
+(1 real change made)
+
+. replace select = 1 if line == "Finch West LRT"
+(1 real change made)
+
+. keep if select == 1
+(39 observations deleted)
+
+. 
+. set obs `=_N + 1'
+Number of observations (_N) was 7, now 8.
+
+. replace city = "Toronto" in L
+(1 real change made)
+
+. replace line = "Waterfront LRT" in L
+(1 real change made)
+
+. replace cost_km_2025 = `total_per_km' in L
+(1 real change made)
+
+. replace tunnel_pct = 0 in L
+(1 real change made)
+
+. 
+. gen plot_label_sub = city + ": " + line
+
+. replace plot_label_sub = "Vancouver: Millennium 
+> (Broadway)" if city == "Vancouver"
+variable plot_label_sub was str27 now str32
+(1 real change made)
+
+. replace plot_label_sub = "LA: Purple Line (Phase
+>  2)" if city == "Los Angeles"
+(1 real change made)
+
+. 
+. gsort cost_km_2025
+
+. gen y = _n
+
+. local y_labels3 ""
+
+. forvalues i = 1/`=_N' {
+  2.     local lab = plot_label_sub[`i']
+  3.     local y_labels3 `"`y_labels3' `i' "`lab'"
+> "'
+  4. }
+
+. 
+. twoway (dropline cost_km_2025 y, horizontal lcol
+> or(gs13)) ///
+>        (scatter y cost_km_2025 if line != "Water
+> front LRT", mcolor("26 44 77") msize(medium)) //
+> /
+>        (scatter y cost_km_2025 if line == "Water
+> front LRT", mcolor("179 27 27") msize(large) mla
+> bel(cost_km_2025) mlabpos(3) mlabcolor("179 27 2
+> 7") mlabformat(%9.0f) mlabsize(vsmall)), ///
+>     ytitle("") ylabel(`y_labels3', angle(0) noti
+> cks nogrid labsize(vsmall)) ///
+>     xlabel(0(200)1000) xtitle("Cost per km (Mill
+> ions, 2025 USD PPP)") ///
+>     title("LRT at Subway Prices: International C
+> omparison", color("26 44 77")) ///
+>     legend(off) scheme(s2color) graphregion(colo
+> r(white) margin(l=10 r=10))
+
+. graph export "output/fig3_subway_lollipop.png", 
+> replace width(1600)
+file
+    /Users/ranxhasi/Desktop/Blog/output/fig3_sub
+    > way_lollipop.png saved as PNG format
+
+. 
+. * ==============================================
+> ================================
+. * FIGURE 6: Subway Comparison Scatter (Fixed ove
+> rlaps)
+. * ==============================================
+> ================================
+. gen mpos6 = 3
+
+. replace mpos6 = 9 if tunnel_pct > 80
+(5 real changes made)
+
+. replace mpos6 = 11 if line == "U-Link"
+(1 real change made)
+
+. replace mpos6 = 3 if line == "Waterfront LRT"
+(0 real changes made)
+
+. 
+. twoway (scatter cost_km_2025 tunnel_pct if line 
+> != "Waterfront LRT", mcolor("26 44 77") msize(me
+> dium) mlabel(plot_label_sub) mlabsize(vsmall) ml
+> abv(mpos6) mlabcolor("26 44 77")) ///
+>        (scatter cost_km_2025 tunnel_pct if line 
+> == "Waterfront LRT", mcolor("179 27 27") msize(l
+> arge) mlabel(plot_label_sub) mlabsize(small) mla
+> bpos(3) mlabcolor("179 27 27")), ///
+>     ytitle("Cost per km (Millions, 2025 USD PPP)
+> ") xtitle("Proportion Underground (%)") ///
+>     title("Surface Rail vs. Underground Subway C
+> osts", color("26 44 77")) ///
+>     xlabel(0(20)100) legend(off) scheme(s2color)
+>  graphregion(color(white) margin(l=10 r=10))
+
+. graph export "output/fig6_subway_scatter.png", r
+> eplace width(1600)
+file
+    /Users/ranxhasi/Desktop/Blog/output/fig6_sub
+    > way_scatter.png saved as PNG format
+
+. 
+. * ==============================================
+> ================================
+. * FIGURE 7: Full Database Scatter
+. * ==============================================
+> ================================
+. use "cleaned_data.dta", clear
+
+. keep if rr == 0 & year >= 2006 & !missing(cost_k
+> m_2025) & !missing(tunnel_pct)
+(315 observations deleted)
+
+. 
+. set obs `=_N + 1'
+Number of observations (_N) was 776, now 777.
+
+. replace line = "Waterfront LRT" in L
+(1 real change made)
+
+. replace cost_km_2025 = `total_per_km' in L
+(1 real change made)
+
+. replace tunnel_pct = 0 in L
+(1 real change made)
+
+. 
+. gen is_wf = (line == "Waterfront LRT")
+
+. 
+. twoway (scatter cost_km_2025 tunnel_pct if is_wf
+>  == 0, mcolor("180 180 180%50") msize(small)) //
+> /
+>        (scatter cost_km_2025 tunnel_pct if is_wf
+>  == 1, mcolor("179 27 27") msize(large) mlabel(l
+> ine) mlabsize(small) mlabpos(3) mlabcolor("179 2
+> 7 27")), ///
+>     ytitle("Cost per km (Millions, 2025 USD PPP)
+> ", size(small)) xtitle("Proportion Underground (
+> %)") ///
+>     title("Waterfront LRT in Global Context", si
+> ze(medium) color("26 44 77")) ///
+>     xlabel(0(20)100) ylabel(0(500)3000, labsize(
+> small)) ///
+>     legend(off) scheme(s2color) graphregion(colo
+> r(white) margin(l=12 r=10))
+
+. graph export "output/fig7_full_scatter.png", rep
+> lace width(1600)
+file
+    /Users/ranxhasi/Desktop/Blog/output/fig7_ful
+    > l_scatter.png saved as PNG format
+
+. 
+. * ==============================================
+> ================================
+. * FIGURE 8: Histogram
+. * ==============================================
+> ================================
+. use "cleaned_data.dta", clear
+
+. keep if rr == 0 & year >= 2006 & !missing(cost_k
+> m_2025)
+(264 observations deleted)
+
+. 
+. count if cost_km_2025 <= `total_per_km'
+  788
+
+. local pctile = round(100 * r(N) / _N, 1)
+
+. 
+. twoway (histogram cost_km_2025, width(50) freque
+> ncy fcolor("200 200 210%70") lcolor(white) lwidt
+> h(vthin)), ///
+>     xline(`total_per_km', lcolor("179 27 27") lw
+> idth(medthick) lpattern(dash)) ///
+>     text(120 `=`total_per_km' + 20' "Waterfront 
+> LRT" "(`pctile'th percentile)", color("179 27 27
+> ") placement(e) size(small)) ///
+>     xtitle("Cost per km (Millions, 2025 USD PPP)
+> ") ytitle("Number of Projects") ///
+>     title("Where Waterfront LRT Sits Globally", 
+> size(medium) color("26 44 77")) ///
+>     xlabel(0(250)3000) legend(off) scheme(s2colo
+> r) graphregion(color(white) margin(l=12 r=10))
+
+. graph export "output/fig8_histogram.png", replac
+> e width(1600)
+file
+    /Users/ranxhasi/Desktop/Blog/output/fig8_his
+    > togram.png saved as PNG format
+
+. 
+. * ==============================================
+> ================================
+. * FIGURE 9: Loop Decomposition
+. * ==============================================
+> ================================
+. use "cleaned_data.dta", clear
+
+. keep if rr == 0 & year >= 2006 & !missing(cost_k
+> m_2025) & !missing(tunnel_pct)
+(315 observations deleted)
+
+. 
+. twoway (scatter cost_km_2025 tunnel_pct, mcolor(
+> "180 180 180%50") msize(small)) ///
+>     (pci `base_per_km' 0 `total_per_km' 0, lcolo
+> r("179 27 27") lwidth(medthick)) ///
+>     (scatteri `total_per_km' 0, mcolor("179 27 2
+> 7") msize(large) msymbol(circle)) ///
+>     (scatteri `base_per_km' 0, mcolor("179 27 27
+> ") msize(large) msymbol(circle_hollow)), ///
+>     text(`total_per_km' 2.5 "With loop ($663M)",
+>  placement(e) color("179 27 27") size(vsmall)) /
+> //
+>     text(`base_per_km' 2.5 "Without loop ($457M)
+> ", placement(e) color("179 27 27") size(vsmall))
+>  ///
+>     ytitle("Cost per km (Millions, 2025 USD PPP)
+> ", size(small)) xtitle("Proportion Underground (
+> %)") ///
+>     title("Waterfront LRT in Global Context", si
+> ze(medium) color("26 44 77")) ///
+>     xlabel(0(20)100) ylabel(0(500)3000, labsize(
+> small)) ///
+>     legend(off) scheme(s2color) graphregion(colo
+> r(white) margin(l=12 r=10))
+
+. graph export "output/fig9_scatter_bypass.png", r
+> eplace width(1600)
+file
+    /Users/ranxhasi/Desktop/Blog/output/fig9_sca
+    > tter_bypass.png saved as PNG format
+
+. 
+. * ==============================================
+> ================================
+. * FIGURE 10: Histogram Decomposition
+. * ==============================================
+> ================================
+. use "cleaned_data.dta", clear
+
+. keep if rr == 0 & year >= 2006 & !missing(cost_k
+> m_2025)
+(264 observations deleted)
+
+. 
+. count if cost_km_2025 <= `total_per_km'
+  788
+
+. local pctile_total = round(100 * r(N) / _N, 1)
+
+. count if cost_km_2025 <= `base_per_km'
+  742
+
+. local pctile_base = round(100 * r(N) / _N, 1)
+
+. 
+. twoway (histogram cost_km_2025, width(50) freque
+> ncy fcolor("200 200 210%90") lcolor(white) lwidt
+> h(vthin)), ///
+>     xline(`total_per_km', lcolor("179 27 27") lw
+> idth(medthick) lpattern(dash)) ///
+>     xline(`base_per_km', lcolor("179 27 27") lwi
+> dth(thin) lpattern(shortdash)) ///
+>     text(155 `=`total_per_km' + 20' "With loop" 
+> "(`pctile_total'th pctile)", color("179 27 27") 
+> placement(e) size(vsmall)) ///
+>     text(175 `=`base_per_km' - 20' "Without loop
+> " "(`pctile_base'th pctile)", color("150 27 27")
+>  placement(w) size(vsmall)) ///
+>     xtitle("Cost per km (Millions, 2025 USD PPP)
+> ") ytitle("Number of Projects") ///
+>     title("Where Waterfront LRT Sits Globally", 
+> size(medium) color("26 44 77")) ///
+>     xlabel(0(500)3000) legend(off) scheme(s2colo
+> r) graphregion(color(white) margin(l=12 r=10))
+
+. graph export "output/fig10_histogram_bypass.png"
+> , replace width(1600)
+file
+    /Users/ranxhasi/Desktop/Blog/output/fig10_hi
+    > stogram_bypass.png saved as PNG format
+
+. 
+end of do-file

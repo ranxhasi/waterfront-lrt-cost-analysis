@@ -1,0 +1,1091 @@
+id,country,city,line,phase,start_year,end_year,rr,length,tunnel_pct,tunnel_km,elevated,atgrade,stations,cost_km_real,real_cost_total
+8201,AE,Dubai,Phase 2,Phase 2 - Green Line,2006,2010,0,22.5,35.11,7.9,0,0,20,485.7,10928.9
+8202,AE,Dubai,Red Line,Phase 3 (Red Line Extension/Route 2020),2016,2020,0,15,21.33,3.2,0,0,7,493.0,7395.0
+7593,AR,Buenos Aires,RER,RER,2020,2026,1,20,100.00,20,0,0,4,245.6,4911.5
+9753,AT,Vienna,va,Lainz Tunnel,1999,2012,1,12.8,100.00,12.8,0,0,0,209.4,2680.2
+7360,AT,Vienna,Line 2,Line 2 extension,2010,2013,0,4.2,0.00,0,2.63,1.57,3,139.0,583.6
+7361,AT,Vienna,Line 1,Line 1 extension,2012,2017,0,4.7,57.00,2.7,0.06,2.008,5,225.5,1060.0
+7362,AT,Vienna,U2/U5 cross,U2/U5 cross,2019,2029,0,9,100.00,9,0,0,11,335.9,3023.4
+7280,AU,Melbourne,Metro Tunnel,Metro Tunnel,2018,2025,0,9,100.00,9,0,0,5,1146.9,10322.2
+7587,AU,Perth,Forrestfield-Airport Link,Forrestfield-Airport Link,2016,2021,1,8.5,100.00,8.5,0,0,3,193.7,1646.3
+7275,AU,Sydney,Metro NW,Metro NW,2013,2019,0,36,42.00,15.1,0,0,13,200.6,7223.2
+7274,AU,Sydney,Metro City & SW,Metro City & SW,2017,2024,0,30,51.00,15.3,0,0,7,423.8,12713.6
+7464,BD,Dhaka,Line 6,Line 6,2015,2022,0,21.3,0.00,0,0,0,16,633.6,13495.4
+7465,BD,Dhaka,Line 1,Line 1,2020,2026,0,31.2,64.00,19.9,0,0,19,569.9,17780.7
+7466,BD,Dhaka,Line 5,Line 5,2020,2028,0,19.6,70.00,14,0,0,14,673.3,13196.2
+7266,BE,Brussels,Line 3,Line 3,2020,2028,0,4.8,100.00,4.8,0,0,7,704.2,3380.0
+7170,BG,Sofia,Line 2,Line 2,2008,2012,0,17,90.00,15.3,0,0,11,274.6,4668.9
+7169,BG,Sofia,Line 1,Line 1 southern,2013,2015,0,3,100.00,3,0,0,3,66.3,198.8
+7171,BG,Sofia,Line 2,Line 2 extension,2012,2016,0,1.3,100.00,1.3,0,0,1,73.0,94.9
+7176,BG,Sofia,Line 3,Line 3,2016,2021,0,12,100.00,12,0,0,12,177.5,2129.4
+7177,BG,Sofia,Line 3,Line 3 extension (Third Stage),2021,2026,0,3.1,100.00,3.1,0,0,4,143.2,444.0
+7168,BG,Sofia,Line 1,Line 1 northern,2009,cond,0,5.1,60.00,3.1,0,0,4,199.2,1016.1
+8194,BH,Bahrain,Phase 1,Phase 1 (Red & Blue),2018,2023,1,28.6,0.00,0.0,0,0,20,99.8,2853.8
+8195,BH,Bahrain,Phase 2,Phase 2,2020,X,1,72.7,0.00,0.0,0,0,,152.4,11079.1
+9754,BR,Rio de Janeiro,Line 4,Line 4,2010,2016,0,16,96.00,15.4,0,0,7,525.2,8402.8
+7344,BR,Salvador,Lines 1-2,Lines 1-2,2000,2017,0,33,4.00,1.4,10.935,20.745,20,126.5,4175.3
+9755,BR,Salvador,SkyRail Bahia,SkyRail Bahia,2020,2022,0,23.3,0.00,0,0,0,26,80.9,1883.8
+7339,BR,Sao Paulo,Line 5,Line 5 extension,2010,2019,0,12,100.00,12,0,0,11,430.3,5163.7
+9756,BR,Sao Paulo,Line 17,Line 17,2012,2021,0,7.7,0.00,0,0,0,8,521.2,4012.9
+7528,BR,Sao Paulo,Line 6,Line 6 phase 1,2015,2023,0,15.9,84.00,13.4,0,0,15,330.6,5257.2
+9761,CA,Calgary,Green Line,Green Line stage 1,2021,2027,0,20,20.00,4,0,0,15,231.0,4620.0
+7106,CA,Calgary,Blue Line Extension,Northeast,2027,~,0,1,0.00,0,0,1,1,160.6,160.6
+,CA,Edmonton,Valley Line Southeast,Southeast,2016,2023,0,13.1,3.00,0.4,,,12,138.8,1818.9
+7104,CA,Edmonton,Metro Line Extension,Northwest Phase 1,2020,2024,0,1.6,0.00,0,0,1.6,2,183.4,293.4
+7103,CA,Edmonton,Valley Line Extension,West,2022,2028,0,14,0.00,0,2.1,11.9,14,186.8,2615.2
+7116,CA,Hamilton,Hamilton LRT,Phase 1,2025,2029,0,14,0.00,0,0,14,17,242.9,3400.0
+7114,CA,Mississauga,Hazel McCallion LRT,Phase 1,2020,2027,0,18,0.05,1,,18,19,273.0,4913.7
+7401,CA,Montreal,Laval extension,Laval extension,2001,2007,0,5.2,100.00,5.2,0,0,3,197.9,1029.0
+7146,CA,Montreal,Blue Line,Blue Line,2020,2026,0,5.8,100.00,5.8,0,0,5,1411.9,8189.3
+7130,CA,Montreal,PSE,Phase 1,2025,2033,0,31,0.00,0,0,31,36/22,612.9,19000.0
+7125,CA,Montreal,REM,Current Project Scope,2018,2027,0,67,15.67,10.5,16.3,36.7,24,151.2,10128.8
+7117,CA,Ottawa,Confederation,Confederation,2013,2019,0,12.5,20.00,2.5,0.84,9.16,13,187.1,2339.3
+7118,CA,Ottawa,Confederation,East West Extensions,2019,2025,0,28,12.14,3.4,0,12,17,93.8,2627.2
+7121,CA,Ottawa,Line 2/Line 4,South Extension+Airport Link,2020,2025,0,20,0.00,0,0.5,15.5,13,83.9,1677.4
+7400,CA,Toronto,Sheppard,Sheppard,1994,2002,0,5.5,100.00,5.5,0,0,5,291.0,1600.7
+7108,CA,Toronto,YUS,Vaughan,2009,2017,0,8.6,100.00,8.6,0,0,6,416.7,3584.0
+7283,CA,Toronto,Eglinton Crosstown,Eglinton Crosstown,2011,2025,0,19,53.00,10,0.62,8.31,25,750.4,14258.5
+7115,CA,Toronto,Finch West LRT,Phase 1,2019,2025,0,10.3,0.05,1,,17,18,256.9,2645.9
+7109,CA,Toronto,Bloor/SSE,Scarborough,2020,2030,0,7.8,100.00,7.8,0,0,3,759.8,5926.4
+7111,CA,Toronto,YUS/YNSE,Yonge to Richmond Hill,2020,2030,0,7.4,100.00,7.4,0,0,6,791.2,5854.6
+7113,CA,Toronto,Eglinton Crosstown,Phase 1 West,2022,2031,0,9.2,73.91,6.8,1.5,0.9,7,251.2,2311.4
+7110,CA,Toronto,Ontario Line,Ontario,2022,2031,0,15.5,57.00,8.8,5.76,1.06,15,1558.3,24153.7
+9762,CA,Vancouver,Millennium Line,Millennium Line Phase 1,1998,2002,0,19.9,0.00,0,0,0,13,91.4,1818.2
+9763,CA,Vancouver,Canada Line,Canada Line,2005,2009,0,18.4,49.00,9.1,0,0,16,141.9,2611.5
+9764,CA,Vancouver,Evergreen Line,Evergreen Line,2012,2016,0,10.9,18.00,2,0,0,6,144.6,1576.0
+7136,CA,Vancouver,Millennium,Broadway,2020,2027,0,5.7,87.72,5,0.295,0.446,6,558.4,3183.0
+7102,CA,Vancouver,Surrey Langley SkyTrain,Planning,2024,2029,0,16,0.00,0,1,0,8,374.8,5996.0
+,CA,Vancouver,Expo Line,Expo Line Surrey-Langley extension,2022,,0,16,0,0,,,8,233.6,3737.6
+7101,CA,Vancouver,Millennium,UBC,2028,,,,,,,,,,
+7560,CH,Geneva,CEVA,CEVA,2013,2019,1,8.8,96.00,8.4,0.14,0.212,4,162.5,1430.1
+,CH,Lausanne,Line 2,Line 2,2002,2008,0,6,,4.5,1.5,0,14,83.1,498.5
+7529,CH,Lucerne,Zentralbahn,Zentralbahn,2008,2013,1,1.5,90.00,1.4,0,0,1,147.5,221.2
+7530,CH,Zurich,Durchmesserlinie,Durchmesserlinie,2007,2014,1,9.6,50.00,4.8,0.2,4.6,1,212.4,2039.1
+7338,CL,Santiago,Project 63,Project 63,2013,2019,0,37,100.00,37,0,0,28,185.0,6844.7
+7337,CL,Santiago,Line 7,Line 7,2021,2026,0,24.8,100.00,24.8,0,0,21,218.8,5426.3
+7641,CN,Beijing,Line 1,Line 1 Phase 1,1965,1969,0,23.6,100.00,23.6,0,0,17,,
+7649,CN,Beijing,Line 13,Line 13,1999,2003,0,40.85,0.00,0,13.855,26.995,17,114.1,4661.9
+8065,CN,Beijing,Line 5,Line 5,2002,2007,0,27.6,,,#N/A,#N/A,23,263.2,7264.2
+7960,CN,Beijing,Line 10,Line 10 North and East,2003,2008,0,24.64,100.00,24.64,0,0,22,322.7,7951.5
+8139,CN,Beijing,Capital Airport Express,Capital Airport Express,2005,2008,0,28.1,0.00,0,17.315,10.785,4,12.9,361.2
+7987,CN,Beijing,Line 8,Line 8 Phase 1 for Olympics,2005,2008,0,4.528,100.00,4.528,0,0,4,310.2,1404.6
+7640,CN,Beijing,Line 4,Line 4,2004,2009,0,28.2,95.17,26.837,0,0,24,316.5,8926.5
+8041,CN,Beijing,Daxing Line,Daxing Line,2007,2010,0,21.8,80.28,17.5,4.36,0,11,259.4,5654.4
+7650,CN,Beijing,Line 8,Line 8 Phase 2 North,,2011,0,10.7,100.00,10.7,0,0,6,,
+8145,CN,Beijing,Line 10,Line 10 South and West,2007,2012,0,32.46,100.00,32.5,0,0,24,,
+,CN,Beijing,Line 9,Line 9,2007,2012,0,16.5,100,16.5,,,13,346.5,5716.8
+7832,CN,Beijing,Line 6,Line 6 Phase 1,2008,2012,0,30.4,100,30.4,,,20,408.2,12408.6
+8131,CN,Beijing,Line 8,Line 8 Northern Extension,2011,2013,0,6.328,73.45,4.648,1.7091,0,3,206.4,1306.4
+7651,CN,Beijing,Line 8,Line 8 Phase 2 South,,2013,0,4.447,100.00,4.447,0,0,6,,
+8112,CN,Beijing,Line 15,Line 15 Phase 1,2009,2014,0,41.4,66.91,27.7,13.605,0.471,18,193.8,8021.3
+7904,CN,Beijing,Line 7,Line 7 Phase 1,2009,2014,0,23.7,100.00,23.7,0,0,21,244.3,5790.9
+,CN,Beijing,Line 6,Line 6 Phase 2,2011,2014,0,12.4,100,12.4,,,8,182.7,2264.9
+7643,CN,Beijing,Line 14,Line 14 East,2010,2015,0,31.4,100.00,31.4,0,0,23,,
+8144,CN,Beijing,Line 8,Line 8 Phase 3 South,2014,2018,0,13,100.00,13.0,0,0,11,,
+7785,CN,Beijing,Line 8,Line 8 Phase 4,2016,2018,0,3.4,29.08,0.9886,2.414,0,2,352.7,1199.2
+7985,CN,Beijing,Daxing Airport Express,Daxing Airport Express Phase 1,2016,2019,0,44,,,#N/A,#N/A,3,189.6,8342.3
+7648,CN,Beijing,Capital Airport Express,Capital Airport Express west extenion,2016,2020,0,1.83,100,1.83,,,1,299.0,547.2
+7816,CN,Beijing,Line 7,Line 7 Phase 2 (Eastern Extension),2016,2020,0,17.2,87.21,15,0,0,9,300.2,5164.2
+7795,CN,Beijing,Line 25,Line 25 Phase 2 (Fangshan Northern Extension),2017,2020,0,5,,,#N/A,#N/A,4,340.8,1704.1
+7794,CN,Beijing,Line 16,Line 16,2013,2021,0,49.8,100.00,49.8,0,0,29,375.2,18685.4
+7776,CN,Beijing,Line 3,Line 3 Phase 1+2,2016,2021,0,37.4,55.61,20.8,0,0,27,389.1,14551.2
+7777,CN,Beijing,Line 12,Line 12,2017,2021,0,29.2,100.00,29.2,0,0,21,389.1,11360.4
+7792,CN,Beijing,Line 19,Line 19 Phase 1,2017,2021,0,22.4,100.00,22.4,0,0,10,347.2,7777.0
+7760,CN,Beijing,Line 28,Line 28,2017,2021,0,8.777,100.00,8.777,0,0,9,435.6,3823.3
+7769,CN,Beijing,Line 11,Line 11 West,2019,2021,0,4.2,100,4.2,,,4,404.8,1700.0
+7824,CN,Beijing,Line 27,Line 27 Phase 2 (Changping Southern Extension),2019,2021,0,16.6,,,#N/A,#N/A,8,300.6,4989.5
+7635,CN,Beijing,Line 8,Line 8 Phase 3 North,2019,2021,0,3.6,100.00,3.6,0,0,3,,
+7793,CN,Beijing,Line 17,Line 17,2015,2022,0,49.7,100,49.7,,,20,308.2,15318.7
+7883,CN,Beijing,Line 13,Line 13A,2019,2022,0,30.2,60.26,18.2,12.08,0,18,237.9,7184.8
+8129,CN,Beijing,Line 13,Line 13B,2019,2022,0,32.2,31.99,10.3,12.11,10.108,15,117.7,3790.3
+7864,CN,Beijing,Line 22,Line 22,2019,2022,0,78.6,62.00,48.5,0,0,20,243.9,19170.5
+,CN,Beijing,Line M101,Line M101,2022,2027,0,19,100,19,,,14,280.4,5328.2
+7642,CN,Beijing,Line 14,Line 14 West,2010,,0,12.4,59.68,7.4,4.565,0.519,7,,
+7986,CN,Beijing,Daxing Airport Express,Daxing Airport Express Phase 2,2019,,0,3.5,,,#N/A,#N/A,2,346.1,1211.5
+,CN,Beijing,Yanfang Branch,Yanfang Branch,2020,,0,6.015,0,0,,,3,222.5,1338.6
+,CN,Changchun,Line 1,Line 1 South Extension,2010,2019,0,8,100,8,,,6,241.9,1935.5
+,CN,Changchun,New Beihu Line,New Beihu Line,2010,2019,0,13.4,0,0,,,13,110.2,1476.2
+,CN,Changchun,Line 2,Line 2 Western Extension,2015,2019,0,5.3,100,5.3,,,3,198.5,1052.1
+,CN,Changchun,Line 2,Line 2,,2020,0,22.8,100,22.8,,,19,200.9,4580.9
+8056,CN,Changchun,Line 2,Line 2 Eastern Extension,2019,2025,0,9.1,100.00,9.1,0,0,5,171.4,1559.9
+8115,CN,Changchun,Line 9,Line 9 (Konggang),2019,2025,0,28.2,49.29,13.9,0,0,8,136.3,3842.8
+7963,CN,Changchun,Line 7,Line 7 Phase 1,2020,2025,0,22.5,100.00,22.5,0,0,19,210.6,4737.5
+7889,CN,Changchun,Line 5,Line 5 Phase 1,2021,,0,19.567,100,19.567,,,18,306.5,5997.4
+8138,CN,Changchun,Line 3,Line 3 Southern Extension,,,0,3,26.67,0.8,0,0,2,85.0,255.1
+8097,CN,Changchun,Line 4,Line 4 Southern Extension,,,0,4,0.00,0,0,0,6,153.0,612.0
+8008,CN,Changchun,Line 6,Line 6,,,0,29.7,100.00,29.7,0,0,22,200.1,5943.3
+,CN,Changsha,First,First,2008,2015,0,45.92,97,44.61,,,32,190.3,8740.6
+,CN,Changsha,Line 2,Line 2 Phase 2,2011,2015,0,21.926,100,21.926,,,19,204.9,4492.0
+8064,CN,Changsha,Line 2,Line 2 West Extension Phase 1,2012,2015,0,4.5,,,#N/A,#N/A,4,215.9,971.5
+7993,CN,Changsha,Line 3,Line 3 Phase 1,2012,2016,0,35.6,,,#N/A,#N/A,25,208.5,7420.9
+8003,CN,Changsha,Line 4,Line 4 Phase 1,2013,2017,0,33.5,,,#N/A,#N/A,24,258.0,8642.6
+7961,CN,Changsha,Line 5,Line 5 Phase 1,2014,2021,0,22.7,100.00,22.7,0,0,18,284.5,6458.1
+8067,CN,Changsha,Line 1 North Extension,Line 1 North Extension Phase 1,2017,2021,0,9.93,54.38,5.4,0,0,5,193.3,1919.3
+8018,CN,Changsha,Line 2,Line 2 West Extension,2017,2021,0,14.72,78.26,11.52,0,0,11,203.0,2987.8
+7833,CN,Changsha,Line 6,Line 6 Central,2017,2021,0,26.5,100.00,26.5,0,0,20,265.0,7022.7
+7841,CN,Changsha,Line 7,Line 7 Phase 1,2017,2021,0,21.6,100.00,21.6,0,0,16,263.6,5694.8
+8104,CN,Changsha,Line 4,Line 4 North Extension,2018,2022,0,14.26,14.45,2.06,0,0,8,150.5,2145.4
+7880,CN,Changsha,Line 5,Line 5 South Extension,2018,2022,0,8.43,100.00,8.43,0,0,7,250.6,2112.8
+7913,CN,Changsha,Line 6,Line 6 West,2018,2022,0,10.05,100.00,10.05,0,0,7,236.4,2376.0
+8096,CN,Changsha,Line 6,Line 6 East,2018,2022,0,12.15,100.00,12.15,0,0,5,158.7,1928.4
+8130,CN,Changsha,Line 5,Line 5 North Extension,2019,2022,0,3.65,48.49,1.77,0,0,2,121.2,442.5
+,CN,Changsha,Line 2 West Extension,Line 2 West Extension Phase 2,2021,2025,0,13.99,98,13.78,,,11,250.6,3506.5
+,CN,Changzhou,Line 1,Line 1 Phase 1,2019,,0,34.237,92,31.635,,,29,193.3,6618.9
+,CN,Changzhou,Line 2,Line 2 Phase 1,2021,,0,19.79,100,19.79,,,15,213.4,4223.0
+,CN,Chengdu,Line 18,Line 18 Phase 1 and 2,2016,2019,0,58.6,65,37.9,,,13,180.0,10549.4
+,CN,Chengdu,Line 1,Line 1 Phase 3,2013,2020,0,13,43,5.6,,,10,140.6,1827.9
+,CN,Chengdu,Line 10,Line 10 Phase 1,2013,2020,0,10.9,100,10.9,,,5,159.1,1733.7
+,CN,Chengdu,Line 3,Line 3 Phase 2,2013,2020,0,15,60,9,,,9,147.2,2207.9
+,CN,Chengdu,Line 4,Line 4 Phase 2,2013,2020,0,21.3,100,21.3,,,13,150.7,3209.8
+,CN,Chengdu,Line 7,Line 7,2013,2020,0,38.6,100,38.6,,,31,219.8,8483.1
+,CN,Chengdu,Line 5,Line 5 Phase 1 and 2 (redesign),2015,2020,0,49,68,33.2,,,39,201.5,9874.5
+9499,CN,Chengdu,Line 10,Line 10 Phase 2,2016,2020,0,26.7,38.95,10.4,16.554,0,9,166.0,4431.8
+9494,CN,Chengdu,Line 9,Line 9 Phase 1,2016,2020,0,22.2,100.00,22.2,0,0,13,286.5,6360.9
+7856,CN,Chengdu,Line 13,Line 13 Phase 1,2019,2024,0,28.85,91.16,26.3,0,0,19,245.8,7090.1
+7928,CN,Chengdu,Line 17,Line 17 Phase 2,2019,2024,0,27.6,100.00,27.6,0,0,17,217.4,6001.6
+7786,CN,Chengdu,Line 18,Line 18 Phase 3,2019,2024,0,14.29,100.00,14.29,0,0,7,307.5,4394.9
+8026,CN,Chengdu,Line 19,Line 19 Phase 2,2019,2024,0,42.87,100,42.87,,,12,248.4,10650.7
+7994,CN,Chengdu,Line 27,Line 27 Phase 1,2019,2024,0,24.86,70,17.35,,,17,200.1,4973.9
+7899,CN,Chengdu,Line 30,Line 30 Phase 1,2019,2024,0,24.78,100.00,24.78,0,0,24,231.3,5731.1
+7808,CN,Chengdu,Line 8,Line 8 Phase 2,2019,2024,0,7.83,100.00,7.83,0,0,7,286.6,2244.0
+7977,CN,Chengdu,Line 10,Line 10 Phase 3,2019,2025,0,5.5,100.00,5.5,0,0,4,202.6,1114.3
+,CN,Chengdu,Line 3,Line 3 Phase 3 (redesign),2015,,0,12.6,57,7.2,,,9,173.6,2187.9
+,CN,Chengdu,Line 17,Line 17 Phase 1,2021,,0,26.14,79,20.64,,,9,186.4,4872.8
+9493,CN,Chengdu,Line 8,Line 8 Phase 1,2021,,0,29.1,100,29.1,,,25,244.8,7124.0
+,CN,Chengdu,Line S3,Line S3,2021,,1,38.7,27,10.42,,,7,94.7,3665.9
+,CN,Chengdu,Line S5,Line S5,2022,,1,59,17,9.85,,,13,108.8,6420.9
+8066,CN,Chongqing,Ring Line,Ring Line,2012,2016,0,50.93,86,43.622,,,33,242.8,12364.7
+8123,CN,Chongqing,Line 5,Line 5 Phase 1,2013,2017,0,40,,,#N/A,#N/A,25,189.2,7567.0
+8090,CN,Chongqing,Line 4,Line 4 Phase 1,2013,2018,0,15.77,70.07,11.05,4.731,0,9,210.8,3323.7
+7944,CN,Chongqing,Line 10,Line 10,2014,2020,0,44.09,81.15,35.78,7.06,1.3171,27,214.4,9454.4
+8074,CN,Chongqing,Line 6,Line 6 Branch (EXPO) Phase 2,2016,2020,0,13.99,63.83,8.93,0,0,7,162.4,2272.2
+8081,CN,Chongqing,Line 9,Line 9 Phase 2,2016,2020,0,10.77,,,#N/A,#N/A,5,196.7,2118.8
+7882,CN,Chongqing,Line 5,Line 5 Northern Extension,2019,2024,0,8.95,100,8.95,,,7,282.5,2528.6
+7952,CN,Chongqing,Line 5,Line 5A,2019,2024,0,28.96,62.57,18.12,0,0,19,213.5,6181.9
+,CN,Chongqing,Line 18,Line 18 Phase 2,2020,2025,0,10.61,100,10.61,,,8,237.3,2518.0
+,CN,Chongqing,Line 4,Line 4 West extension,2021,2026,0,10.9,100,10.9,,,9,276.4,3012.4
+,CN,Chongqing,Line 17,Line 17 (redesign) Phase 1,2022,2026,0,14.18,100,14.18,,,9,206.6,2929.4
+,CN,Chongqing,Line 15,Line 15 Phase 1,2021,2027,1,38.73,92,35.463,,,14,201.0,7784.1
+,CN,Chongqing,Line 27,Line 27,2021,2027,1,51.789,98,50.529,,,14,189.7,9826.5
+,CN,Chongqing,Line 2,Line 2,2000,,0,19.15,,,,,18,154.1,2952.0
+,CN,Chongqing,Line 1,Line 1 Phase 2,2007,,0,15.5,,,,,9,167.3,2593.9
+,CN,Chongqing,Line 1,Line 1 Phase 1,2007,,0,16.5,,,,,14,235.1,3880.0
+,CN,Chongqing,Line 3,Line 3,2007,,0,39.1,,,,,29,182.6,7139.1
+8121,CN,Chongqing,Line 6,Line 6 Branch (EXPO),2013,,0,12.1,98,11.9,,,5,173.5,2099.9
+,CN,Chongqing,Jiangjin Line,Jiangjin Line South Extension,2018,,0,4.6,,,,,2,231.3,1064.1
+,CN,Chongqing,Bishan-Tongliang Line,Bishan-Tongliang Line,2020,,0,37.353,28,10.386,,,9,68.8,2570.6
+,CN,Chongqing,Jiangjin Line,Jiangjin Line,2020,,0,28.22,21,5.8,,,7,72.6,2050.1
+,CN,Chongqing,Line 15,Line 15 Phase 2,2021,,1,32.8,93,30.5,,,11,196.3,6437.7
+,CN,Chongqing,Line 24,Line 24 Phase 1,2021,,0,18.9,100,18.9,,,12,231.0,4365.1
+8082,CN,Chongqing,Line 9,Line 9 Phase 1,2021,,0,32.3,,,,,26,185.6,5994.7
+,CN,Chongqing,Line 6,Line 6 East,2022,,0,6.7,,,,,3,189.5,1269.7
+8059,CN,Chongqing,Line 4,Line 4 Phase 2,,,0,32.6,63.40,20.67,0,0,14,168.5,5493.0
+,CN,Dalian,Line 1,Line 1 Phase 3,2010,2021,0,13.2,14,1.8,,,3,183.7,2425.5
+,CN,Dalian,Line 4,Line 4,2010,2022,0,24.484,1,24.484,,,18,250.6,6136.7
+8160,CN,Dongguan,Line 1,Line 1 Phase 1,2021,2026,0,57.46,86,49.4,,,25,198.2,11387.8
+8162,CN,Dongguan,Line 1,Line 1 Phase 3,2021,2026,0,51.5,100,51.5,,,20,214.3,11037.2
+8163,CN,Dongguan,Line 1,Line 1 Feeder Phase 1,2022,2027,0,25.56,100.00,25.6,0,0,10,205.3,5247.4
+8168,CN,Dongguan,Line 2,Line 2 Phase 3,2022,2027,0,17.5,96,16.8,,,9,251.7,4405.1
+8161,CN,Dongguan,Line 1,Line 1 Phase 2,2023,2028,0,10.9,34.86,3.8,0,0,4,166.6,1815.7
+8169,CN,Dongguan,Line 3,Line 3 Phase 1,2023,2028,0,50.14,100.00,50.1,0,0,18,192.4,9649.1
+8170,CN,Dongguan,Line 3,Line 3 feeder,2024,2028,0,1.8,100.00,1.8,0,0,1,216.1,388.9
+,CN,Foshan,Guangfo Line,Guangfo Line,2007,2011,0,32.16,100,32.16,,,21,214.9,6910.4
+,CN,Foshan,Line 2,Line 2 Phase 1,2014,2021,0,32.41,78,25.3,,,17,193.9,6284.4
+,CN,Foshan,Line 3,Line 3 Phase 1,2016,2022,0,69.5,86,59.5,,,37,183.7,12766.0
+,CN,Foshan,Line 11,Line 11,2021,2026,0,36.4,66,24,,,18,203.4,7403.9
+,CN,Foshan,Line 2,Line 2 Phase 2,2021,2026,0,23.5,0.54,12.7,,,10,147.8,3474.1
+,CN,Foshan,Line 4,Line 4 Phase 1,2021,2026,0,55.91,88,49.1,,,33,226.6,12671.6
+,CN,Fuzhou,Line 1,Line 1 Phase 1,2009,2017,0,24.6,100,24.6,,,21,266.0,6544.4
+7953,CN,Fuzhou,Line 6,Line 6,2015,2019,0,40.5,79.01,32,0.455,8.05,20,240.0,9718.1
+,CN,Fuzhou,Line 1,Line 1 South Extension,2015,2020,0,4.924,100,4.924,,,4,178.0,876.5
+7898,CN,Fuzhou,Line 4,Line 4 Phase 1,2017,2021,0,24.2,100.00,24.2,0,0,21,267.1,6464.2
+,CN,Fuzhou,Line 2,Line 2 East Extension,2020,,0,16.88,100,16.88,,,12,223.9,3779.5
+7874,CN,Fuzhou,Line 5,Line 5 Phase 1,2020,,0,27.7,100,27.7,,,20,234.0,6480.4
+,CN,Fuzhou,Line 6,Line 6 East Extension,2020,,0,5.29,100,5.29,,,6,229.6,1214.5
+,CN,Fuzhou,F1,F1 Express Line,2021,,0,62.4,76,47.2,,,15,181.6,11333.2
+9486,CN,Guangzhou,Line 13,Line 13 Phase 1,2013,2017,0,27.03,100.00,27.03,0,0,11,265.9,7186.5
+,CN,Guangzhou,Line 14,Line 14 Phase 1,2012,2018,0,54.4,40,21.9,,,13,121.9,6631.5
+,CN,Guangzhou,Line 14,Line 14 Branch,2012,2018,0,21.6,92,19.9,,,5,126.6,2735.6
+,CN,Guangzhou,Line 21,Line 21,2012,2018,0,61.6,69,42.5,,,14,165.8,10214.9
+,CN,Guangzhou,Line 4,Line 4 South Extension,2012,2018,0,12.5,96,12.01,,,6,220.2,2752.3
+7851,CN,Guangzhou,Line 14,Line 14 Phase 2,2017,2021,0,11.6,100.00,11.6,0,0,7,257.1,2981.8
+7859,CN,Guangzhou,Line 22,Line 22,2017,2021,1,31,100,31,,,6,253.3,7852.9
+7779,CN,Guangzhou,Line 10,Line 10,2017,2022,0,19.41,100,19.41,,,14,354.7,6884.1
+7865,CN,Guangzhou,Line 5,Line 5 Eastern Extension,2018,2022,0,9.7,100.00,9.7,0,0,6,254.6,2469.2
+7915,CN,Guangzhou,Line 7,Line 7 Phase 2,2018,2022,0,21.8,100.00,21.8,0,0,11,233.9,5099.0
+8040,CN,Guangzhou,Line 3,Line 3 Eastern Extension,2019,2022,0,9.6,100.00,9.6,0,0,4,186.4,1789.6
+7922,CN,Guangzhou,Line 18,Line 18,2017,2023,1,62.5,100,62.5,,,9,231.3,14456.5
+7912,CN,Guangzhou,Line 8,Line 8 Northern Extension,2017,2023,0,20,57,11.3,,,9,224.3,4486.6
+7811,CN,Guangzhou,Line 12,Line 12,2018,2023,0,37.6,100,37.6,,,25,296.7,11154.7
+,CN,Guangzhou,Line 3,Line 3 Phase 1,2000,,0,35.86,100,35.86,,,18,292.9,10503.5
+,CN,Guangzhou,Line 6,Line 6 Phase 1,2006,,0,24.3,87,21.2,,,22,264.6,6428.9
+,CN,Guangzhou,Line 2 and 8,Line 2 and 8 Extension,2007,,0,28.55,,,,,22,266.9,7619.7
+,CN,Guangzhou,Line 6,Line 6 Phase 3,2009,,0,17.6,100,17.6,,,,193.5,3405.9
+,CN,Guangzhou,Line 9,Line 9,2009,,0,18.3,100,18.3,,,,201.6,3688.7
+,CN,Guangzhou,Line 7,Line 7,2012,,0,17.6,100,17.6,,,,206.7,3638.8
+,CN,Guangzhou,Line 11,Line 11,2019,,0,44.2,100,44.2,,,32,308.8,13650.3
+7778,CN,Guangzhou,Line 13,Line 13 Phase 2,2019,,0,33.5,100,33.5,,,23,367.8,12320.1
+,CN,Guangzhou,Line 18,Nansha-Zhuhai (Zhongshan) intercity or Line 18,2020,,1,79,100,79,,,,183.0,14456.5
+,CN,Guangzhou,Line 22,Line 22 Northern Extension,2020,,1,39,100,39,,,,247.9,9667.4
+,CN,Guangzhou,Line 28,Line 28,2020,,1,107,100,107,,,,264.9,28347.7
+,CN,Guangzhou,Line 18,Line 18 North,2021,,1,41.1,100,41.1,,,10,263.6,10833.1
+,CN,Guangzhou,Line 8,Line 8 Eastern Extension,2021,,0,18,100,18,,,7,261.6,4709.4
+,CN,Guilin,Line 1,Line 1,2020,,0,29.27,6,1.9,,,13,84.3,2468.6
+9491,CN,Guiyang,Line 1,Line 1 Phase 1,2013,2017,0,34.3,84.55,29,5.14,0.348,25,250.3,8584.1
+8058,CN,Guiyang,S1,S1 Phase 1,2016,2020,0,28.5,52.98,15.1,0,0,12,183.0,5214.4
+,CN,Guiyang,Line 2,Line 2 Phase 1,,2021,0,27.6,100,27.6,,,24,200.3,5528.5
+7976,CN,Guiyang,Line 2,Line 2 Phase 2,2017,2022,0,12.8,81.25,10.4,2.27,0.162,8,223.0,2855.0
+7931,CN,Guiyang,Line 3,Line 3 Phase 1,2018,2023,0,43.135,100.00,43.135,0,0,29,229.7,9907.4
+8011,CN,Guiyang,S2,S2 Phase 1 North,2021,,0,30.32,75,22.64,,,13,161.7,4901.6
+7729,CN,Hangzhou,Line 1,Line 1 Phase 1,2007,2012,0,48,,,#N/A,#N/A,31,237.9,11420.6
+,CN,Hangzhou,Line 5,Line 5 Phase 1,2014,2020,0,51.6,100,51.6,,,36,219.5,11326.7
+,CN,Hangzhou,Hanglin LIne,Hanglin Line (Hangzhou Section),2016,2020,0,14.26,30,4.32,,,6,97.9,1395.4
+,CN,Hangzhou,Hanglin LIne,Hanglin Line (Lin'an Section),2016,2020,0,20.72,42,8.64,,,6,98.9,2049.1
+8024,CN,Hangzhou,Line 2,Line 2 Phase 3,2017,2020,0,1.6,,,#N/A,#N/A,1,208.0,332.8
+8057,CN,Hangzhou,Line 5,Line 5 Phase 2,2017,2020,0,3.2,,,#N/A,#N/A,2,184.6,590.9
+7937,CN,Hangzhou,Line 3,Line 3 Phase 1,2017,2021,0,52.9,100,52.9,,,35,236.5,12511.7
+8001,CN,Hangzhou,Line 7,Line 7,2017,2021,0,45,,,#N/A,#N/A,22,217.1,9768.2
+,CN,Hangzhou,Hangfu Line,Hangfu Line,,2021,0,23.508,100,23.508,,,11,160.7,3778.1
+,CN,Hangzhou,Hangzhou-Haining Line,Hangzhou-Haining Line,,2021,0,48.18,31,14.81,,,12,80.3,3867.0
+7835,CN,Hangzhou,Line 10,Line 10 Phase 1,,2021,0,15.184,100,15.184,,,12,293.8,4461.1
+,CN,Hangzhou,Line 6,Line 6 Phase 1,,2021,0,26.955,100,26.955,,,19,187.9,5065.7
+7907,CN,Hangzhou,Line 4,Line 4 Phase 2,2017,2022,0,23.9,100,23.9,,,15,257.5,6153.2
+7866,CN,Hangzhou,Line 6,Line 6 Phase 2,2017,2022,0,8.366,100,8.366,,,5,221.4,1852.0
+7818,CN,Hangzhou,Line 9,Line 9 Phase 1,2017,2022,0,17.8,,,#N/A,#N/A,14,296.3,5274.3
+7914,CN,Hangzhou,Line 8,Line 8 Phase 1,2018,2022,0,17.1,100,17.1,,,9,235.3,4023.4
+,CN,Hangzhou,K1 Airport Line,K1 Airport Line,2019,2022,0,59.1316,79,46.5,,,15,207.6,12275.3
+,CN,Hangzhou,Line 3,Line 3 North Extension,2020,2022,0,4.7,100,4.7,,,4,688.0,3233.4
+,CN,Hangzhou,Line 2,Line 2 Phase 1 Xiaoshan section,2008,,0,18.2,100,18.2,,,13,271.9,4948.3
+,CN,Hangzhou,Line 4,Line 4 Phase 1,2013,,0,20.8,100,20.8,,,18,260.4,5416.9
+,CN,Hangzhou,Line 2,Line 2 Phase 2,2014,,0,11.281,100,11.281,,,9,253.5,2859.3
+,CN,Hangzhou,Line 2,Line 2 Phase 1 (redesign),2017,,0,30.5,100,30.5,,,24,183.1,5585.1
+,CN,Hangzhou,Line 5,Line 5 Phase 2 West,2020,,0,4.95,100,4.95,,,2,182.6,903.7
+,CN,Hangzhou,Line 10,Line 10 Phase 2,2022,,0,13.33,100,13.33,,,10,224.0,2985.4
+,CN,Harbin,Line 1,Line 1 Phase 1,2005,,0,14.4,100,14.4,,,16,237.5,3419.5
+,CN,Harbin,Line 1,Line 1 Phase 4,2016,,0,2.6,100,2.6,,,2,226.7,589.5
+,CN,Harbin,Line 2,Line 2 Phase 2 North and South Ext,2016,,0,14.1,100,14.1,,,11,209.0,2947.6
+,CN,Harbin,Line 4,Line 4 Phase 1,2016,,0,32.2,100,32.2,,,27,248.6,8004.0
+,CN,Harbin,Line 5,Line 5 Phase 1,2016,,0,36.1,100,36.1,,,25,207.4,7488.6
+,CN,Harbin,Line 2,Line 2 Phase 1,2021,,0,28.7,100,28.7,,,19,202.8,5820.9
+,CN,Harbin,Line 3,Line 3 Phase 2,2021,,0,32.18,100,32.2,,,31,235.7,7585.7
+7978,CN,Hefei,Line 1,Line 1 Phase 1+2,2012,2016,0,24.58,100.00,24.58,0,0,26,264.4,6498.7
+7946,CN,Hefei,Line 3,Line 3 Phase 1,2014,2019,0,37.2,89,32.97,,,33,220.4,8197.9
+7971,CN,Hefei,Line 4,Line 4 Phase 1,2015,2020,0,36,100.00,36,0,0,28,244.2,8791.0
+7739,CN,Hefei,Line 2,Line 2 Eastern Extension,2020,2024,0,14.5,100,14.5,,,11,199.0,2885.9
+7744,CN,Hefei,Line 3,Line 3 Southern Extension,2020,2024,0,11.25,100,11.25,,,8,240.7,2707.8
+,CN,Hefei,Hefei-Lu'an Regional Express Line,Hefei-Lu'an Regional Express Line,2018,,0,63.1,19,11.94,,,19,104.6,6600.6
+,CN,Hefei,Line 1,Line 1 South,2019,,0,4.54,100,4.54,,,3,281.2,1276.5
+7936,CN,Hefei,Line 5,Line 5 Phase 1,2020,,0,40.22,100,40.22,,,33,226.6,9113.5
+,CN,Hefei,Line 2,Line 2 Western Extension,2021,,0,12.7,100,12.7,,,8,200.6,2547.0
+7746,CN,Hefei,Line 6,Line 6 Phase 1,2021,,0,27.5,100,27.5,,,17,216.8,5961.7
+,CN,Hefei,Line 6,Line 6 East Extension,2021,,0,10,100,10,,,4,204.9,2048.6
+7745,CN,Hefei,Line 4,Line 4 Southern Extension,2022,,0,13.97,47,6.55,,,8,157.5,2200.0
+7747,CN,Hefei,Line 7,Line 7 Phase 1,not started,,0,21,100.00,21,0,0,17,239.1,5021.4
+7752,CN,Hefei,Line 8,Line 8 Phase 1,not started,,0,23,100.00,23,0,0,12,209.5,4819.1
+,CN,Hohhot,Line 2,Line 2,2020,,0,27.3,100,27.3,,,24,221.2,6039.6
+,CN,Huizhou,Line 1,Line 1,2018,,0,58,,,,,26,209.7,12160.7
+,CN,Jiaxing,Hujia Regional Railway,Hujia Regional Railway (Zhejiang section),2020,,1,35.01,0,0,,,8,144.4,5056.8
+,CN,Jinan,Line 3,Line 3 Phase 1,,2022,0,21.57,1,21.6,,,13,177.1,3820.1
+,CN,Jinan,Line 2,Line 2,2021,,0,36.39,95,34.6,,,18,178.0,6477.7
+,CN,Jinan,Line 4,Line 4 Phase 1,2021,,0,40.3,1,40.3,,,33,281.3,11336.0
+7753,CN,Kunming,Line 1,Line 1 Phase 1 and Line 2 Phase 1,2010,2014,0,42.1,69.83,29.4,12.09,0.961,31,243.6,10253.5
+8019,CN,Kunming,Line 1,Line 1 Feeder,2013,2015,0,5.2,,,#N/A,#N/A,4,240.0,1248.0
+8137,CN,Kunming,Line 1,Line 1 Southern Extension,2013,2015,0,7.3,,,#N/A,#N/A,3,123.8,904.1
+8051,CN,Kunming,Line 3,Line 3 Phase 2,2013,2018,0,4,,,,,3,210.0,839.8
+8122,CN,Kunming,Line 2,Line 2 Phase 2,2017,2019,0,9.2,100.00,9.2,0,0,8,218.5,2010.5
+,CN,Kunming,Line 3,Line 3 Phase 1,2017,,0,19.5,,,,,,210.3,4100.8
+7939,CN,Kunming,Line 1,Line 1 Northwestern Extension,2020,,0,7.594,100,7.594,,,7,350.2,2659.3
+8098,CN,Kunming,Line 4,Line 4,2020,,0,43.5,100,43.5,,,26,207.2,9013.6
+8072,CN,Kunming,Line 5,Line 5,2020,,0,26.45,100,26.45,,,22,256.9,6796.3
+8128,CN,Kunming,Line 6,Line 6,2020,,0,25.61,59,15.01,,,8,164.6,4215.3
+8155,CN,Lanzhou,Line 1,Line 1 Phase 1,,2019,0,25.9,100,25.9,,,20,229.4,5942.2
+,CN,Lanzhou,Line 4,Line 4 Phase 1,2019,,0,26.8,60,16,,,11,190.9,5116.3
+8154,CN,Lanzhou,Line 2,Line 2 Phase 1,2021,,0,9.6,100,9.6,,,9,265.2,2545.6
+,CN,Luoyang,Line 2,Line 2,2022,,0,18.216,100,18.216,,,15,231.3,4214.0
+,CN,Nanchang,Phase 1,Phase 1 Expansion (Line 1 and 2),2009,2016,0,50.6,100,50.6,,,50,204.7,10358.1
+8107,CN,Nanchang,Line 2,Line 2 Western Extension,2015,2018,0,8.5,100.00,8.5,0,0,7,162.1,1378.0
+7905,CN,Nanchang,Line 4,Line 4 Phase 1,2016,2021,0,38.2,84.29,32.2,0,0,29,263.0,10045.6
+8091,CN,Nanchang,Line 1,Line 1 Eastern Extension,2018,2021,0,4.1,100.00,4.1,0,0,2,174.5,715.3
+7842,CN,Nanchang,Line 3,Line 3,,2021,0,28.5,100,28.5,,,22,222.8,6349.0
+,CN,Nanchang,Line 1,Line 1 North Extension,2021,,0,16.973,80,13.528,,,8,173.1,2938.0
+7803,CN,Nanchang,Line 2,Line 2 Eastern Extension,2021,,0,10.42,100,10.42,,,9,280.9,2926.6
+7730,CN,Nanjing,Line 1,Line 1 Phase 1,2000,2005,0,21.72,65.98,14.33,6.05,1.552,16,268.7,5835.3
+,CN,Nanjing,Line S8,Line S8 Phase 2,2012,2014,0,45.2,27,12.2,,,17,90.4,4085.2
+,CN,Nanjing,Line 4,Line 4 Phase 1,2004,2015,0,43.9,95,41.7,,,,202.6,8894.3
+8080,CN,Nanjing,Line 3,Line 3 Phase 3,2015,2017,0,6.6,100.00,6.6,0,0,2,179.0,1181.6
+7875,CN,Nanjing,Line 9,Line 9 Line 5,2016,2020,0,19.677,100,19.677,,,16,328.3,6460.4
+7891,CN,Nanjing,Line 2,Line 2 Western Extension,2017,2020,0,5.6,100.00,5.6,0,0,4,268.0,1500.7
+7947,CN,Nanjing,Line S8,Line S8 Southern Extension,2017,2020,0,2.5,100.00,2.5,0,0,2,230.6,576.4
+7969,CN,Nanjing,Line 11,Line 11 Phase 1,2018,2021,0,27,95,25.6,,,20,231.8,6258.3
+,CN,Nanjing,Line S4 Nanjing-Chuzhou,Line S4 Nanjing-Chuzhou Phase 1 (Chuzhou Section),2018,2022,0,32.95,0,0,,,6,107.7,3548.2
+7945,CN,Nanjing,Line 6,Line 6,2019,2023,0,32.365,100,32.365,,,19,288.5,9338.7
+7850,CN,Nanjing,Line 10,Line 10 Phase 2,2020,2023,0,13.33,100,13.33,,,10,224.0,2985.4
+7848,CN,Nanjing,Line 4,Line 4 Phase 2,2021,2025,0,10,100,10,,,6,250.3,2503.0
+,CN,Nanjing,Line 2,Line 2 Phase 1,2005,,0,21.63,88,19.11,,,18,280.5,6066.9
+7897,CN,Nanjing,Line 7,Line 7,2019,,0,35.49,100,35.49,,,27,255.1,9051.8
+7834,CN,Nanjing,Line 1,Line 1 Northern Extension,2021,,0,6.54,92,6.04,,,5,355.4,2324.0
+7825,CN,Nanjing,Line 5,Line 5,2021,,0,37.4,100,37.4,,,30,254.2,9505.8
+,CN,Nanjing,Line S2 Nanjing-Ma'anshan,Line S2 Nanjing-Ma'anshan Regional Rail (Anhui section),2021,,1,27.49,0,0,,,8,65.5,1800.4
+,CN,Nanjing,Line S2 Nanjing-Ma'anshan,Line S2 Nanjing-Ma'anshan Regional Rail (Nanjing section),2021,,1,26.5,52,13.71,,,8,157.6,4175.9
+,CN,Nanjing,Line S3 Nanjing-He County,Line S3 Nanjing-He County,2021,,0,42.4,,,,,11,100.4,4256.0
+,CN,Nanjing,Line S4 Nanjing-Chuzhou,Line S4 Nanjing-Chuzhou Phase 2 (Nanjing Section),2021,,0,5.671,46,2.63,,,2,172.1,975.9
+,CN,Nanjing,Line S5 Nanjing-Yangzhou,Line S5 Nanjing-Yangzhou,2021,,0,53.75,57,30.66,,,16,141.9,7628.9
+,CN,Nanjing,Line S6,Line S6,2021,,0,26.313,62,16.26,,,13,224.6,5909.2
+,CN,Nanjing,Line S4 Nanjing-Chuzhou,Line S4 Nanjing-Chuzhou Phase 2 (Chuzhou Section),2022,,0,13.28,,,,,6,94.6,1255.8
+,CN,Nanjing,Line S8,Line S8 Phase 2,2022,,0,24,,,,,8,80.9,1940.5
+,CN,Nanning,Line 1,Line 1 Phase 1,2011,2016,0,32.1,100,32.1,,,25,223.2,7166.3
+,CN,Nanning,Line 2,Line 2 Phase 1,2014,2017,0,21.2,100,21.2,,,18,246.9,5234.9
+7930,CN,Nanning,Line 3,Line 3 Phase1,2015,2019,0,27.7,100.00,27.7,0,0,23,244.8,6782.3
+7929,CN,Nanning,Line 4,Line 4 Phase 1,,2020,0,24.98,100,24.98,,,19,206.4,5154.9
+7896,CN,Nanning,Line 2,Line 2 Eastern Extension,2017,2021,0,6.5,100.00,6.5,0,0,4,236.7,1538.3
+7857,CN,Nanning,Line 5,Line 5 Phase 1,,2021,0,20.22,100,20.22,,,17,230.4,4659.4
+,CN,Nanning,Airport Line,Airport Line,2021,,0,22.8,,,,,5,105.3,2400.7
+,CN,Nanning,Wuming Line,Wuming Line,2021,,0,53.2,20,10.6,,,13,88.1,4687.8
+,CN,Nantong,Line 1,Line 1,2019,,0,39.4,100,39.4,,,28,204.7,8067.0
+,CN,Nantong,Line 2,Line 2,2020,,0,20.85,100,20.85,,,17,215.7,4497.5
+,CN,Ningbo,Line 3,Line 3 Phase 1,,2019,0,16.73,100,16.73,,,15,266.5,4459.0
+,CN,Ningbo,Ningbo-Fenghua Line,Ningbo-Fenghua Line,,2019,0,21.59,4,0.84,,,9,102.6,2214.8
+,CN,Ningbo,2013-2020 Program,2013-2020 Program,2013,2020,0,100.1,,,,,,200.9,20113.2
+,CN,Ningbo,Line 4,Line 4,,2021,0,35.95,68,24.45,,,25,162.5,5841.3
+,CN,Ningbo,Line 3,Line 3 Southern Extension,2020,,0,12.7,17,2.2,,,6,121.8,1546.8
+,CN,Ningbo,Line 3,Line 3 Phase 2,2021,,0,9.05,100,9.05,,,5,235.0,2126.6
+,CN,Ningbo,Line 5,Line 5 Phase 1,2021,,0,27.91,100,27.91,,,22,202.6,5653.8
+,CN,Putian,F2 Line,F2 Line,2020,,1,23.8,63,14.9,,,,169.1,4024.6
+,CN,Qingdao,Line 11,Line 11,,2018,0,58.35,10,5.81,,,22,101.6,5928.4
+,CN,Qingdao,Qingdao-Pingdu Intercity Rail,Qingdao-Pingdu Intercity Rail,,2020,0,60,20,12,,,10,102.9,6176.1
+,CN,Qingdao,Line 1 + Line 7,Line 1 + Line 7 Phase 1,,2021,0,59.97,100,59.97,,,40,189.5,11361.6
+,CN,Qingdao,Line 8,Line 8,,2021,0,61.4,,,,,16,148.5,9119.9
+,CN,Qingdao,Line 15,Line 15,2021,2026,0,30.8,100,30.8,,,17,179.7,5533.9
+,CN,Qingdao,Line 5,Line 5,2021,2026,0,32.7,100,32.7,,,29,226.2,7395.4
+,CN,Qingdao,Line 6,Line 6 Phase 2 South,2021,2026,0,13.85,100,13.85,,,10,170.3,2358.7
+,CN,Qingdao,Line 8,Line 8 Branch,2021,2026,0,18.8,100,18.8,,,9,173.7,3265.0
+,CN,Qingdao,Line 9,Line 9,2021,2026,0,16.63,100,16.63,,,13,215.1,3576.9
+,CN,Qingdao,Line 3,Line 3,2010,,0,25,100,25,,,22,310.2,7755.4
+,CN,Qingdao,Line 2,Line 2,2019,,0,25,100,25,,,22,352.4,8809.2
+,CN,Qingdao,Line 2,Line 2 Phase 2 East Section,2021,,0,8.89,100,8.89,,,8,216.4,1923.4
+7656,CN,Shanghai,Line 1,Line 1 (Shanghai Railway Station to Jinjiang Park),1990,1995,0,16.1,,,#N/A,#N/A,13,258.3,4158.2
+7657,CN,Shanghai,Line 2,Line 2 Phase 1,1995,1999,0,16.3,100.00,16.3,0,0,12,586.9,9566.2
+7666,CN,Shanghai,Line 3,Line 3,1997,2000,0,24.975,0.00,0,21.605,3.375,,264.9,6616.1
+7658,CN,Shanghai,Line 2,Line 2 Eastern Extension 1,1999,2000,0,2.72,31.99,0.87,0.305,1.5718,1,82.1,223.4
+7673,CN,Shanghai,Line 5,Line 5 Phase 1,2000,2002,0,17.206,0.00,0,16.7,0.51,11,133.7,2300.5
+7672,CN,Shanghai,Line 4,Line 4 Phase 1,,2005,0,22.032,94.33,20.782,1.285,0.0368,9,331.9,7313.0
+7659,CN,Shanghai,Line 2,Line 2 Western Extension 1,2001,2006,0,6.155,100.00,6.155,0,0,4,343.1,2111.7
+7667,CN,Shanghai,Line 3,Line 3 Northern Extension,,2006,0,15.365,12.88,1.979,13.395,0.1306,10,127.0,1951.7
+7682,CN,Shanghai,Line 9,Line 9 Phase 1,,2008,0,30.687,48.17,14.782,15.9588,0,13,291.8,8954.1
+7675,CN,Shanghai,Line 7,Line 7 Phase 1,2005,2009,0,34.388,100.00,34.388,0,0,28,281.3,9674.1
+7683,CN,Shanghai,Line 9,Line 9 Phase 2,2005,2009,0,14.5,100.00,14.5,0,0,10,319.0,4624.9
+7691,CN,Shanghai,Line 11,Line 11 Phase 1,2007,2009,0,46.008,47.11,21.676,24.3853,0,21,194.1,8930.6
+7681,CN,Shanghai,Line 8,Line 8 Phase 2,,2009,0,14.44,57.06,8.24,6.2092,0,8,175.7,2537.8
+7858,CN,Shanghai,Line 8,Line 8 Phase 1,,2009,0,23.22,100.00,23.22,0,0,22,417.8,9700.6
+7690,CN,Shanghai,Line 10,Line 10 Phase 1,2005,2010,0,36.221,100.00,36.221,0,0,31,339.7,12304.2
+7664,CN,Shanghai,Line 2,Line 2 Eastern Extension 2,2006,2010,0,30.8,69.81,21.5,8.565,0.983,10,168.8,5199.1
+7665,CN,Shanghai,Line 2,Line 2 Western Extension 2,,2010,0,8.53,,,#N/A,#N/A,3,129.9,1107.9
+8113,CN,Shanghai,Line 6,Line 6,2002,2011,0,33.09,63.61,21.05,11.845,0.3983,28,241.5,7992.9
+7680,CN,Shanghai,Line 7,Line 7 Northern Extension,2009,2011,0,9.978,70.25,7.01,2.515,0.479,5,140.2,1399.1
+7688,CN,Shanghai,Line 9,Line 9 Phase 3,2009,2012,0,5.372,100.00,5.372,0,0,,231.0,1240.9
+7696,CN,Shanghai,Line 11,Line 11 Phase 2,,2013,0,22.886,,,#N/A,#N/A,13,213.8,4894.1
+7697,CN,Shanghai,Line 11,Line 11 Huaqiao,,2013,0,6,0.00,0,6,0,3,116.3,698.0
+9467,CN,Shanghai,Line 16,Line 16,2010,2014,0,58.96,23.22,13.69,45.3992,0,,136.5,8047.8
+8105,CN,Shanghai,Line 11,Line 11 (to Disney),,2016,0,9.15,15.96,1.46,7.73,0.0475,3,188.2,1722.0
+7689,CN,Shanghai,Line 9,Line 9 Phase 3 Eastern Extension,2013,2017,0,13.828,100,13.828,,,9,322.4,4457.6
+7674,CN,Shanghai,Line 5,Line 5 Southern Extension,2014,2018,0,19.628,39.47,7.747,11.9743,0,9,182.3,3577.2
+8136,CN,Shanghai,Line 8,Line 8 Phase 3 (Pujiang Line),2016,2018,0,6.689,0.00,0,6.65,0.04,6,166.5,1114.0
+8042,CN,Shanghai,Line 10,Line 10 Phase 2,2015,2020,0,10.09,31.42,3.17,6.53,0.4321,6,,
+9462,CN,Shanghai,Line 14,Line 14,2014,2021,0,38.15,100,38.15,,,31,432.5,16499.1
+9461,CN,Shanghai,Line 15,Line 15,2016,2021,0,42.3,100,42.3,,,30,338.0,14298.6
+,CN,Shanghai,Line 18,Line 18,2016,2021,0,36.85,100,36.85,,,26,373.8,13775.0
+7954,CN,Shanghai,Airport Contact Line,Airport Contact Line,2019,2025,0,68.6,83.00,56.7,0,0,9,213.0,14609.3
+7819,CN,Shanghai,Jiamin Line,Jiamin Line,2021,2027,1,41.36,94,38.68,,,17,274.1,11336.0
+,CN,Shanghai,Line 12,Line 12 West Extension,2022,,0,17.3,100,17.3,,,6,289.5,5008.9
+8043,CN,Shanghai,Chongming,Chongming,,,0,44.6,59.00,26.1,0,0,8,180.1,8034.0
+7754,CN,Shanghai,Line 1,Line 1 Western Extension,,,0,1.2,0.00,0,0,0,1,905.7,1086.9
+7768,CN,Shanghai,Line 13,Line 13 Western Extension,,,0,9.8,100.00,9.8,0,0,5,391.8,3839.4
+7762,CN,Shanghai,Line 19,Line 19,,,0,44.5,100.00,44.5,0,0,32,413.5,18400.4
+7755,CN,Shanghai,Line 20,Line 20 Phase 1,,,0,19.8,100.00,19.8,0,0,16,604.3,11964.3
+7763,CN,Shanghai,Line 21,Line 21 Phase 1,,,0,28,100.00,28,0,0,16,401.3,11235.3
+7770,CN,Shanghai,Line 23,Line 23 Phase 1,,,0,28,100.00,28,0,0,22,366.2,10254.2
+,CN,Shaoxing,Hangshao Line,Hangshao Line,2016,2021,0,20.3,49,9.87,,,10,188.9,3835.3
+,CN,Shaoxing,Line 1,Line 1,2016,2021,0,31.3,100,31.3,,,23,228.7,7158.7
+,CN,Shaoxing,Line 2,Line 2,2022,,0,10.8,100,10.8,,,9,266.5,2878.0
+,CN,Shenyang,Line 10,Line 10 Phase 1,2012,2020,0,49.9,100,49.9,,,37,200.6,10008.4
+,CN,Shenyang,Line 9,Line 9 Phase 1,2012,2020,0,29.2,100,29.2,,,23,207.3,6053.9
+,CN,Shenyang,Line 4,Line 4 Phase 1,,2022,0,34.2,100,34.2,,,23,138.2,4725.3
+Line 3,CN,Shenyang,Line 3,Line 3 Phase 1,2019,2025,0,38.4,,,#N/A,#N/A,28,180.6,6935.9
+7968,CN,Shenyang,Line 1,Line 1 Eastern Extension,2020,2025,0,15,100.00,15,0,0,9,206.9,3103.6
+7923,CN,Shenyang,Line 6,Line 6 Phase 1,2020,2026,0,36,,,#N/A,#N/A,32,219.5,7901.5
+,CN,Shenyang,Line 1 and 2,Line 1 and 2 Phase 1,2005,,0,55.07,100,55.07,,,43,260.2,14331.2
+7938,CN,Shenyang,Line 2,Line 2 Southern Extension,,,0,14.3,,,#N/A,#N/A,8,213.3,3049.7
+,CN,Shenzhen,Phase 1,Phase 1 Expansion (Line 1 and 4),1998,2004,0,21.446,100,21.446,,,19,358.9,7697.3
+9483,CN,Shenzhen,Line 11,Line 11 Phase 1,,2016,0,49.7,67.61,33.6,11.635,4.766,11,,
+9477,CN,Shenzhen,Line 7,Line 7,,2016,0,30.2,100.00,30.2,0,0,28,335.9,10145.2
+,CN,Shenzhen,Line 3,Line 3 Phase 3 North Ext,2011,2020,0,9.4,0,0,,,7,243.7,2290.7
+,CN,Shenzhen,Line 10,Line 10,2015,2020,0,29.54,100,29.54,,,24,296.4,8755.4
+7706,CN,Shenzhen,Line 6,Line 6 Phase 1,2015,2020,0,37.626,34.58,13.01,24.8358,0,20,140.2,5276.4
+9484,CN,Shenzhen,Line 8,Line 8 Phase 1,2015,2020,0,12.341,100.00,12.341,0,0,6,,
+7784,CN,Shenzhen,Line 12,Line 12,2017,2022,0,40,100.00,40,0,0,33,299.5,11978.7
+7707,CN,Shenzhen,Line 6,Line 6 (feeder),2018,2022,0,6.13,86.54,5.305,0,0,4,188.2,1153.7
+7713,CN,Shenzhen,Line 12,Line 12 Phase 2,2020,2022,0,8.05,100,8.05,,,6,321.0,2583.7
+,CN,Shenzhen,Line 3,Line 3 Phase 3 North Ext (Phase 4),2020,2022,0,9.35,79,7.42,,,7,343.1,3208.1
+7712,CN,Shenzhen,Line 3,Line 3 Phase 4,,2022,0,9.35,79.36,7.42,0,0,7,343.1,3208.1
+7810,CN,Shenzhen,Line 16,Line 16,2018,2023,0,27.6,100.00,27.6,0,0,24,313.3,8646.4
+9485,CN,Shenzhen,Line 8,Line 8 Phase 2,2019,2024,0,8.023,100,8.023,,,4,223.7,1794.4
+7715,CN,Shenzhen,Line 13,Line 13 Southern Extension,2020,2025,0,4.47,100.00,4.47,0,0,3,330.2,1476.0
+7722,CN,Shenzhen,Line 8,Line 8 Phase 3,,2025,0,4.26,100.00,4.26,0,0,,580.8,2474.3
+,CN,Shenzhen,Line 5,Line 5 West Extension,2019,,0,2.88,100,2.88,,,3,421.7,1214.5
+7827,CN,Shenzhen,Line 14,Line 14,2020,,0,50.34,100,50.34,,,17,242.3,12197.3
+,CN,Shenzhen,Guangzhou-Dongguan-Shenzhen Regional Rail,Guangzhou-Dongguan-Shenzhen Regional Rail South Extension,2021,,1,15.15,100,15.15,,,3,223.2,3380.9
+7714,CN,Shenzhen,Line 13,Line 13 Northern Extension,2021,,0,19.296,100,19.296,,,11,410.5,7921.0
+7771,CN,Shenzhen,Line 13,Line 13,2021,,0,22.436,100,22.436,,,16,296.0,6639.9
+,CN,Shenzhen,Shenhui,Shenhui Dapeng Branch ICR,2021,,1,39.4,100,39.4,,,6,170.3,6710.7
+,CN,Shenzhen,Shenhui,Shenhui Mainline ICR,2021,,1,58.738,100,58.738,,,11,250.3,14702.7
+7728,CN,Shenzhen,Line 20,Line 20 Phase 1,2022,,0,8.43,100,8.43,,,5,377.7,3183.7
+7723,CN,Shenzhen,Line 11,Line 11 Phase 2,not started,,0,5.58,100.00,5.58,0,0,3,353.6,1973.3
+7720,CN,Shenzhen,Line 16,Line 16 Phase 2,not started,,0,9.53,100.00,9.53,0,0,7,343.2,3270.5
+7721,CN,Shenzhen,Line 7,Line 7 Phase 2,not started,,0,2.45,100.00,2.45,0,0,2,340.7,834.7
+9468,CN,Shenzhen,Line 1,Line 1 Phase 2,,,0,23.5,77.87,18.3,3.43,1.975,15,154.7,3636.2
+9469,CN,Shenzhen,Line 2,Line 2,,,0,35.8,100.00,35.8,0,0,29,149.0,5333.7
+9470,CN,Shenzhen,Line 3,Line 3,,,0,41.5,44.63,18.52,23.24,0,30,121.8,5055.2
+9475,CN,Shenzhen,Line 4,Line 4 Phase 2,,,0,15.94,31.93,5.09,10.9986,0,10,109.1,1738.9
+9476,CN,Shenzhen,Line 5,Line 5,,,0,40.1,89.28,35.8,4.411,0,27,153.7,6164.7
+9478,CN,Shenzhen,Line 9,Line 9,,,0,25.33,100.00,25.33,0,0,22,264.8,6708.3
+,CN,Shijiazhuang,First,First,2012,2020,0,59.6,100,59.6,,,52,238.5,14212.5
+,CN,Shijiazhuang,Line 1,Line 1 Phase 2,2012,2021,0,12.7,100,12.7,,,7,205.1,2604.3
+,CN,Shijiazhuang,Line 3,Line 3 Phase 2,2012,2021,0,8.1,100,8.1,,,5,227.3,1841.0
+,CN,Shijiazhuang,Line 4,Line 4,2020,,0,24.4,100,24.4,,,21,209.7,5116.6
+,CN,Shijiazhuang,Line 6,Line 6 Phase 1,2020,,0,15.76,100,15.76,,,11,189.9,2993.3
+,CN,Suzhou,Line 2,Line 2,2009,2014,0,26.557,70,18.709,,,22,231.6,6150.1
+,CN,Suzhou,Line 5,Line 5,2020,,0,44.1,99,43.6,,,34,190.9,8420.4
+8009,CN,Suzhou,Line 6,Line 6,2020,,0,36.2,100,36.2,,,31,196.9,7127.1
+7920,CN,Suzhou,Line 7,Line 7,2021,,0,29.6,100,29.6,,,25,211.1,6248.4
+7995,CN,Suzhou,Line 8,Line 8,,,0,35.2,100.00,35.2,0,0,26,204.3,7193.1
+8000,CN,Suzhou,Line S1,Line S1,,,0,41,,,#N/A,#N/A,27,203.0,8321.0
+8033,CN,Taiyuan,Line 2,Line 2 Phase 1,2012,2016,0,25.1,,,#N/A,#N/A,22,237.6,5964.1
+,CN,Taiyuan,Line 3,Line 3,2018,,0,30.523,100,30.523,,,25,242.0,7387.6
+,CN,Taiyuan,Jinzhong-Taiyuan Intercity,Jinzhong-Taiyuan Intercity,2019,,0,19.86,5,0.991,,,12,131.4,2609.7
+8002,CN,Taiyuan,Line 1,Line 1 Phase 1,2021,,0,28.737,100,28.737,,,24,222.0,6380.7
+,CN,Taizhou,Line S2,Line S2 South Segment,2021,,0,6,0,0,,,1,89.0,533.8
+,CN,Taizhou,Line S2,Line S2 West Segment,2021,,0,11.75,0,0,,,3,96.6,1135.3
+,CN,Taizhou,Line S2,Line S2,2021,,0,66.3,28,18.65,,,22,132.0,8750.6
+,CN,Taizhou,Line S1,Line S1,2022,,1,52.4,34,17.8,,,15,115.1,6033.7
+7984,CN,Tianjin,Z4,Z4 Phase 1,2015,2020,0,43.7,34.55,15.1,0,0,20,230.3,10062.8
+7787,CN,Tianjin,M8,M8 Phase 1,2017,2020,0,20,100.00,20,0,0,18,351.6,7031.2
+8050,CN,Tianjin,Z2,Z2 Phase 1,2017,2020,0,52.8,33.90,17.9,0,0,5,199.1,10510.2
+7800,CN,Tianjin,M10,M10 Phase 1,2018,2022,0,21.22,100,21.22,,,21,309.4,6564.6
+7809,CN,Tianjin,M11,M11 Phase 1,2019,,0,22.6,100,22.6,,,21,315.6,7133.6
+7801,CN,Tianjin,M7,M7 Phase 1,2019,,0,26.53,100,26.53,,,21,303.9,8063.4
+,CN,Tianjin,Line 13,Line 13 Phase 1,2020,,0,21.2,100,21.2,,,17,333.9,7079.5
+7826,CN,Tianjin,B1,B1 Phase 1,2021,,0,31.6,,,,,22,265.8,8398.3
+8120,CN,Tianjin,M3,M3 Phase 2,,,0,3.9,0.00,0,3.75,0.15,3,153.2,597.5
+,CN,Urumqi,Line 1,Line 1,2014,2019,0,27.615,100,27.615,,,21,246.7,6813.5
+,CN,Urumqi,Line 2,Line 2,,2021,0,19.35,,,,,16,238.7,4619.6
+,CN,Urumqi,Line 4,Line 4 Phase 1,2018,,0,20.556,1,20.556,,,16,248.3,5103.6
+8153,CN,Wenzhou,,M2,2020,,0,27.9,100.00,27.9,0,0,23,,
+8152,CN,Wenzhou,M1,M1,2022,,0,32.5,100,32.5,,,23,227.3,7386.9
+,CN,Wenzhou,S3,S3 Phase 1,2022,,0,31.17,9,2.8,,,12,111.6,3477.5
+8146,CN,Wenzhou,S1,S1 Phase 1,,,0,53.5,,,#N/A,#N/A,,125.9,6734.4
+8147,CN,Wenzhou,S2,S2 Phase 1,,,0,70.299,,,#N/A,#N/A,,134.9,9482.6
+7731,CN,Wuhan,Line 1,Line 1 Phase 1,2000,2003,0,10.234,0.00,0,10.23,0,10,147.5,1509.6
+7736,CN,Wuhan,Line 1,Line 1 Phase 2,2005,2010,0,18.25,0.00,0,18.25,0,16,147.9,2698.7
+7738,CN,Wuhan,Line 2,Line 2 Phase 1,2006,2012,0,27.985,100.00,27.985,0,0,21,,
+7737,CN,Wuhan,Line 1,Line 1 Phase 3 Hankou North,2011,2013,0,5.7,0.00,0,5.7,0,3,168.5,960.2
+,CN,Wuhan,Line 3,Line 3 Phase 1,2012,2015,0,27.9,100,27.9,,,23,277.9,7753.7
+8114,CN,Wuhan,Line 1,Line 1 Phase 4 (Jinghe),2015,2017,0,3.97,0.00,0,3.97,0,2,153.7,610.1
+7979,CN,Wuhan,Line 4,Line 4 Western Extension,2016,2018,0,4,85.00,3.4,0,0,2,230.9,923.6
+7962,CN,Wuhan,Line 7,Line 7 South,2016,2020,0,14.2,100.00,14.2,0,0,7,237.0,3366.1
+7840,CN,Wuhan,Line 8,Line 8 Phase 2,2016,2021,0,17.6,100,17.6,,,12,253.4,4459.9
+7890,CN,Wuhan,Line 11,Line 11 East,2017,2021,0,32.1,100.00,32.1,0,0,20,268.9,8632.5
+7881,CN,Wuhan,Line 5,Line 5,2017,2021,0,33.59,75,25.33,,,26,207.7,6976.7
+,CN,Wuhan,Line 11,Line 11 Phase 3 Hanchang Section,2019,2024,0,4,100,4,,,2,567.4,2269.8
+7802,CN,Wuhan,Line 12,Line 12 (Ring),2020,2024,0,59.9,100.00,59.9,0,0,37,296.3,17750.7
+,CN,Wuhan,Line 11,Line 11 Phase 3 Hanyang Section,2019,2025,0,2.2,100,2.2,,,2,503.8,1108.3
+9492,CN,Wuhan,Line 4,Line 4 Phase 1,2009,,0,15.4,100.00,15.4,0,0,15,290.5,4474.0
+8088,CN,Wuhan,Line 2,Line 2 Northern Extension,2016,,0,19.8,69,13.7,,,7,160.6,3179.0
+8106,CN,Wuhan,Line 16,Line 16,2020,,0,33,38,12.7,,,12,153.0,5049.0
+7761,CN,Wuhan,Line 11,Line 11 Phase 3,,,0,9.9,100.00,9.9,0,0,6,409.4,4052.7
+7849,CN,Wuhan,Line 19,Line 19,,,0,20.6,100.00,20.6,0,0,6,253.7,5226.1
+7817,CN,Wuhan,Line 2,Line 2 Southern Extension,,,0,13.35,100.00,13.35,0,0,10,434.2,5797.1
+8099,CN,Wuhan,Line 21,Line 21,,,0,33.7,71.81,24.2,9.773,0,15,167.6,5647.6
+8016,CN,Wuhan,Line 6,Line 6 Phase 2,,,0,7,100.00,7,0,0,5,198.0,1385.7
+8083,CN,Wuhan,Line 7,Line 7 Northern Extension,,,0,33.6,40.48,13.6,0,0,9,158.9,5338.3
+8075,CN,Wuhan,Line 8,Line 8 Phase 3,,,0,4.9,100.00,4.9,0,0,2,161.1,789.5
+8049,CN,Wuhan,Xingang,Xingang,,,0,30.2,84.11,25.4,0,0,11,178.0,5375.3
+,CN,Wuhu,Line 1,Line 1,,2021,0,30.517,0,0.1,,,25,84.7,2585.4
+,CN,Wuhu,Line 2,Line 2,,2021,0,14.94,9,1.3,,,11,105.2,1572.0
+,CN,Wuxi,Line 2,Line 2 Phase 1,2010,2014,0,26.3,75,19.6,,,20,262.1,6894.0
+,CN,Wuxi,Line 1,Line 1 South,,2019,0,5.187,100,5.187,,,3,150.2,779.1
+,CN,Wuxi,Line S1,Line S1,2019,2023,0,30.4,35,10.5,,,9,134.6,4092.0
+,CN,Wuxi,Line 1,Line 1 Phase 1,2014,,0,29.4,83,24.4,,,24,227.7,6695.8
+,CN,Wuxi,Line 3,Line 3 Phase 1,2020,,0,28.5,100,28.5,,,21,214.4,6109.2
+,CN,Wuxi,Line 4,Line 4 Phase 1,2021,,0,24.4,100,24.4,,,18,213.3,5204.3
+,CN,Wuxi,Line 5,Line 5 Phase 1,2022,,0,25.4,100,25.4,,,22,272.6,6923.5
+,CN,Wuxi,Wuxi-Yixing Intercity,Wuxi-Yixing Intercity,2022,,0,30,,,,,6,148.8,4465.1
+,CN,Xi'an,Line 2,Line 2 Phase 1,2006,2011,0,26.76,100,26.76,,,21,230.6,6169.8
+,CN,Xi'an,Line 1,Line 1 Phase 1,,2013,0,25.36,100,25.36,,,19,200.8,5092.2
+,CN,Xi'an,Line 3,Line 3,2012,2016,0,38.4,71,27.13,,,24,169.9,6525.6
+,CN,Xi'an,Line 4,Line 4,2013,2018,0,33.3,100,33.3,,,28,205.6,6847.5
+,CN,Xi'an,Line 5,Line 5 Phase 1,2014,2020,0,25.7,95,24.3,,,20,217.5,5590.8
+,CN,Xi'an,Line 9,Line 9,2016,2020,0,25.296,100,25.296,,,15,166.9,4222.2
+,CN,Xi'an,Line 5,Line 5 Phase 2,2016,2021,0,19.87,16,3.2,,,13,143.5,2852.0
+,CN,Xi'an,Line 6,Line 6 Phase 1 and 2,2016,2022,0,39.8,100,39.8,,,32,217.7,8666.2
+7992,CN,Xi'an,Line 1,Line 1 Phase 3,2019,2023,0,10.6,100,10.6,,,7,238.6,2529.4
+8048,CN,Xi'an,Line 16,Line 16 Phase 1,2019,2024,0,15.03,100,15.03,,,9,201.0,3020.4
+8010,CN,Xi'an,Line 15,Line 15 Phase 1,2020,2025,0,19,100.00,19,0,0,11,196.3,3729.2
+8089,CN,Xi'an,Line 10,Line 10 Phase 1,2020,2026,0,34.11,,,,,16,182.4,6222.9
+,CN,Xi'an,Line 1,Line 1 Phase 2,2016,,0,6.1,100,6.1,,,4,204.3,1246.4
+,CN,Xi'an,Airport Line,Airport Line,2019,,0,29.28,28,8.14,,,10,130.0,3806.5
+8034,CN,Xi'an,Line 14,Line 14,,,0,13.8,100.00,13.8,0,0,8,180.7,2493.4
+8032,CN,Xi'an,Line 2,Line 2 Phase 2,,,0,7,100.00,7,0,0,4,183.7,1286.1
+7906,CN,Xi'an,Line 8,Line 8,,,0,50,100.00,50,0,0,35,229.6,11480.7
+,CN,Xiamen,Line 2,Line 2 Phase 1,2015,2019,0,25.2,100,25.2,,,19,219.6,5534.0
+,CN,Xiamen,Line 1,Line 1 Phase 1,2011,2020,0,31.5,84,26.36,,,23,218.1,6868.7
+,CN,Xiamen,Line 3,Line 3 Phase 1,2011,2020,0,18.6,,,,,16,223.9,4163.7
+7867,CN,Xiamen,Line 2,Line 2 Phase 2,2016,2020,0,15.5,100.00,15.5,0,0,9,265.5,4115.9
+7970,CN,Xiamen,Line 3,Line 3 Phase 2,2016,2020,0,22.6,74.34,16.8,0,0,13,225.9,5104.9
+8073,CN,Xiamen,Line 4,Line 4,2017,2022,0,69.6,44.83,31.2,0,0,18,175.5,12213.5
+7843,CN,Xiamen,Line 6,Line 6,2017,2022,0,44.5,100.00,44.5,0,0,27,276.0,12283.6
+,CN,Xiamen,Quanzhou-Xiamen-Zhangzhou Regional Rail R1,Quanzhou-Xiamen-Zhangzhou Regional Rail R1 (Zhangzhou Section),2020,,0,45.8,,,,,9,142.2,6511.4
+,CN,Xiamen,Line 9,Line 9,2021,,0,44.2,100,44.2,,,24,260.6,11517.0
+,CN,Xiamen,Quanzhou-Xiamen-Zhangzhou Regional Rail R1,Quanzhou-Xiamen-Zhangzhou Regional Rail R1 (Xiamen Section),2021,,1,51.2,,,,,4,168.2,8614.2
+,CN,Xiamen,Quanzhou-Xiamen-Zhangzhou Regional Rail R1,Quanzhou-Xiamen-Zhangzhou Regional Rail R1 (Quanzhou Section),2021,,1,70.2,,,,,11,115.7,8125.6
+,CN,Xiamen,Line 4,Line 4 (Houxi to Xiang'an Airport),2022,,0,44.78,50,22.48,,,10,145.8,6528.3
+,CN,Xuzhou,Line 1,Line 1,2014,2019,0,21.967,96,20.996,,,18,232.7,5112.5
+,CN,Xuzhou,"First Phase Program (Lines 1, 2 and 3)","First Phase Program (Lines 1, 2 and 3)",2013,2020,0,67,90,60.6,,,,207.8,13922.2
+,CN,Xuzhou,Line 2,Line 2,2020,,0,24.15,100,24.15,,,20,208.9,5044.0
+,CN,Xuzhou,Line 3,Line 3,2021,,0,18.3,100,18.3,,,16,210.0,3842.9
+7699,CN,Xuzhou,Line 4,Line 4 Phase 1,2021,,0,26.2,100,26.2,,,19,200.3,5247.5
+7705,CN,Xuzhou,Line 6,Line 6 Phase 1,2021,,0,22.912,100,22.912,,,16,237.5,5442.7
+7698,CN,Xuzhou,Line 3,Line 3 Phase 2,4 years,,0,6.5,100.00,6.5,0,0,5,229.5,1491.9
+7704,CN,Xuzhou,Line 5,Line 5 Phase 1,5 years,,0,24.6,100.00,24.6,0,0,20,203.5,5006.2
+,CN,Yiwu,Phase 1,Phase 1 Program,2020,,0,107.17,,,,,31,96.3,10316.7
+,CN,Zhengzhou,Line 1,Line 1 Phase 1,2009,2013,0,25.2,100,25.2,,,20,231.4,5830.1
+,CN,Zhengzhou,Line 2,Line 2 Phase 1,2010,2016,0,18.27,100,18.27,,,16,215.0,3928.8
+,CN,Zhengzhou,Line 4,Line 4,2014,2020,0,30.1,100,30.1,,,24,198.6,5978.0
+,CN,Zhengzhou,Line 3,Line 3 Phase 1,2017,2020,0,25.487,100,25.487,,,21,242.5,6179.7
+,CN,Zhengzhou,Zhengxu Regional,Zhengxu Regional Rail (Xucheng Section),,2022,1,33.78,12,4.016,,,11,83.1,2806.7
+8017,CN,Zhengzhou,Line 10,Line 10 Phase 1,2019,2024,0,21.3,100,21.3,,,12,184.4,3927.3
+7955,CN,Zhengzhou,Line 12,Line 12 Phase 1,2019,2024,0,17.034,100,17.034,,,12,199.9,3405.1
+8025,CN,Zhengzhou,Line 8,Line 8 Phase 1,2019,2024,0,50.63,100,50.63,,,27,174.1,8813.0
+,CN,Zhengzhou,Zhengxu Regional,Zhengxu Regional Rail (Zhengzhou Section),2020,,1,31.27,90,28.18,,,15,170.0,5314.7
+8027,CN,Zhengzhou,Line 3,Line 3 Phase 2,2021,,0,6.305,100,6.305,,,4,161.0,1015.1
+7872,CN,Zhengzhou,Line 14,Line 14 Phase 1,,,0,8.3,100.00,8.3,0,0,6,241.5,2004.3
+7873,CN,Zhengzhou,Line 6,Line 6 Phase 1,,,0,36.5,92.33,33.7,2.51,0.41,24,240.7,8787.3
+7888,CN,Zhengzhou,Line 7,Line 7 Phase 1,,,0,26.9,100.00,26.9,0,0,20,235.9,6344.6
+,CN,Zibo,Line 1,Line 1,2020,,0,20.82,62,12.86,,,15,192.2,4001.4
+,CO,Bogotá,Line 1,Line 1,2020,2028,0,24,0,0,24,0,27,443.0,10632.2
+11263,CZ,Prague,Line C,Line C to Letnany,2004,2008,0,4.6,100.00,4.6,0,0,3,359.5,1653.7
+7201,CZ,Prague,Line A,Line A extension,2010,2015,0,6.1,97.00,5.9,0,0.2,4,349.4,2131.2
+11264,CZ,Prague,Line D,Line D,2021,2029,0,10.5,90.00,9.5,1,0,10,539.5,5664.8
+,DE,Berlin,U9,Extension to Rathaus Steglitz,1968,1974,0,1.5,100,1.5,,,2,244.1,366.1
+,DE,Berlin,U7,Extension to Rathaus Spandau,1978,1984,0,4.9,100,4.9,,,5,258.2,1265.3
+7600,DE,Berlin,U8,U8 to Wittenau,1985,1994,0,3.6,100.00,3.6,0,0,4,233.7,841.3
+7601,DE,Berlin,U2,U2 to Pankow,1997,2000,0,0.8,100.00,0.8,0,0,1,173.4,138.7
+7264,DE,Berlin,U55,U55,2004,2009,0,1.8,100.00,1.8,0,0,3,369.3,664.7
+7265,DE,Berlin,U5-U55 connection,U5-U55 connection,2010,2020,0,2.2,100.00,2.2,0,0,3,421.6,927.5
+7595,DE,Cologne,North-South Stadtbahn,North-South Stadtbahn,2003,2015,0,4,100.00,4,0,0,6,507.5,2029.9
+7403,DE,Dusseldorf,Wehrhahn Line,Wehrhahn Line,2007,2016,0,3.4,100.00,3.4,0,0,6,498.3,1694.4
+,DE,Frankfurt,U1,Line A1,1963,1968,0,9,50,4.5,0,4.5,14,141.5,1273.4
+7602,DE,Frankfurt,U-Bahn Europaviertel,U-Bahn Europaviertel,2019,2025,0,2.7,52.00,1.4,0,0,4,197.9,534.4
+,DE,Frankfurt,U2,Bad Homburg extension,2026,2029,0,1.6,22.00,0.4,0,1.2,1,181.3,290.0
+7440,DE,Hamburg,U4,U4 to HafenCity U,2007,2012,0,3.9,100.00,3.9,0,0,2,163.3,636.9
+7441,DE,Hamburg,U4,U4 to Elbbrücken,2014,2018,0,1.3,100.00,1.3,0,0,1,238.9,310.6
+7442,DE,Hamburg,U4,U4 to Horner Geest,2021,2027,0,2.6,100.00,2.6,0,0,2,302.1,785.4
+9769,DE,Hamburg,U5,U5-East,2021,2030,0,5.8,93.00,5.4,0,0,5,641.0,3718.0
+7402,DE,Karlsruhe,Kombilösung,Kombilösung,2010,2021,1,4.8,100.00,4.8,0,0,6,529.7,2542.6
+7251,DE,Leipzig,City Tunnel,City Tunnel,2003,2013,1,3.6,100.00,3.6,0,0,4,518.6,1867.1
+,DE,Munich,S-Bahn Stammstrecke,S-Bahn Stammstrecke,1965,1971,1,11.4,36,4.1,,,5,258.1,2942.3
+11265,DE,Munich,U3,U3 to Moosach,2004,2010,0,1.7,100.00,1.7,0,0,2,205.6,349.5
+11249,DE,Munich,Second Trunk Line,Second Trunk Line,2016,2028,1,7.2,100.00,7.2,0,0,3,898.2,6467.1
+11270,DE,Munich,U5,U5 to Pasing,2022,2029,0,3.8,100.00,3.8,0,0,3,351.0,1333.8
+7594,DE,Nuremberg,U3,U3 extension to Grossreuth,2014,2020,0,1.1,100.00,1.1,0,0,1,107.2,117.9
+,DE,Nuremberg,U3,U3 extension to Gebersdorf,2020,2026,0,2.1,100,2.1,,,2,108.9,228.7
+7267,DK,Copenhagen,City Circle Line,City Circle Line,2009,2019,0,15.5,100.00,15.5,0,0,17,306.5,4750.6
+,DR,Santo Domingo,Line 1,Line 1,2005,2008,0,14.5,66,9.5,,,16,170.5,2472.8
+,DR,Santo Domingo,"Line 2a, 2b","Line 2a, 2b",2009,2018,0,16.5,100,16.5,,,18,205.1,3383.6
+7393,EC,Quito,Metro,Metro,2012,2019,0,22.9,100.00,22.9,0,0,15,223.8,5125.5
+,EG,Alexandria-Port Sa'id,Abo Qir-Port Sa'id LRT,Abo Qir-Port Sa'id LRT,Under Tender,By 2026,1,280,0.00,0,0,280,16,,
+8203,EG,Cairo,Line 1,Line 1,1982,1987,1,44,14.32,6.3,0,0,35,156.8,6897.4
+,EG,Cairo,Line 1,Line 1 Phase 1,1982,1987,0,28,,,,,22,,
+,EG,Cairo,Line 1,Line 1 Phase 2,1982,1989,0,13.5,,,,,12,,
+,EG,Cairo,Line 2,Line 2 Phase 1,1987,1996,0,8,100.00,8,0,0,8,,
+,EG,Cairo,Line 2,Line 2 Phase 2,1987,1997,0,3,100.00,3,0,0,3,,
+,EG,Cairo,Line 1,Line 1 Phase 3,1982,1999,0,1.36,0.00,,,,1,,
+,EG,Cairo,Line 1,Line 1 All Phases,1982,1999,0,42.86,10.97,4.7,0,38.16,35,,
+,EG,Cairo,Line 2,Line 2 Phase 3,1987,1999,0,5.5,75.00,4.1,See Notes.,See Notes.,4,,
+,EG,Cairo,Line 2,Line 2 Phase 4,1987,2000,0,2.7,0.00,0,See Notes.,See Notes.,3,,
+,EG,Cairo,Line 2,Line 2 Phase 5,1987,2005,0,2.6,0.00,0,See Notes.,See Notes.,2,,
+,EG,Cairo,Line 2,Line 2 All Phases,1987,2005,0,21.8,See Notes.,19.8,See Notes.,See Notes.,20,,
+8208,EG,Cairo,Line 2,Line 2,1993,2005,0,22,43.18,9.5,0,0,20,727.2,15998.5
+8210,EG,Cairo,Line 3,Line 3 Phase 1,2006,2012,0,4.3,100.00,4.3,0,0,5,1047.5,4504.3
+,EG,Cairo,Line 3,Line 3 Phase 1,2007,2012,0,4.4,100.00,4.4,0,0,5,,
+8211,EG,Cairo,Line 3,Line 3 Phase 2,2009,2014,0,7.2,100.00,7.2,0,0,4,,
+,EG,Cairo,Line 3,Line 3 Phase 2,2009,2014,0,7.7,100.00,7.7,0,0,4,,
+,EG,Cairo,Line 3,Line 3 Phase 4A,2013,2019,0,3.7,100.00,3.7,0,0,4,,
+,EG,Cairo,Line 3,Line 3 Phase 4B,2013,2021,0,7.8,0.00,0,7.8,0,6,,
+,EG,Cairo,Line 3,Line 3 Phase 3A,2013,2022,0,4,100.00,4,0,0,4,,
+8217,EG,Cairo,Line 3,Line 3 Phase 4,2015,2022,0,12.1,79.34,9.6,0,0,8,,
+8216,EG,Cairo,Line 3,Line 3 Phase 3,2017,2022,0,11.6,100.00,11.6,0,0,12,,
+,EG,Cairo,Line 3,Line 3 All Phases,2007,2023,0,41.3,See Notes.,See Notes.,See Notes.,See Notes.,34,,
+,EG,Cairo,Line 3,Line 3 Phase 3B,2013,2023,0,6.6,See Notes.,See Notes.,See Notes.,See Notes.,6,,
+,EG,Cairo,Line 3,Line 3 Phase 3C,2013,2023,0,7.1,See Notes.,See Notes.,See Notes.,See Notes.,5,,
+,EG,Cairo,Monorail,Monorail East,2019,2023,0,56.5,0.00,0,56.5,0,22,,
+,EG,Cairo,Monorail,Monorail West,2019,2023,0,42,0.00,0,42,0,13,,
+,EG,Cairo,Monorail,Monorail All Phases,2019,2023,0,98.5,0.00,0,98.5,0,35,,
+,EG,Cairo,Line 4,Line 4 Phase 1,2020,2024,0,19*,90.00,See Notes.,See Notes.,See Notes.,17,,
+,EG,Cairo,Line 4,Line 4 Phase 2,2020,2026,0,23,See Notes.,See Notes.,See Notes.,See Notes.,21,,
+,EG,Cairo,Line 4,All Phases,2020,2026,0,42,See Notes.,See Notes.,See Notes.,See Notes.,38,,
+8224,EG,Cairo,Line 6,Line 6,2017,X,0,21,65.24,13.7,0,0,24,776.0,16295.0
+8209,EG,Cairo,Line 2,Line 2 Extension,2018,X,1,7,0.00,0.0,0,0,5,,
+8218,EG,Cairo,Line 4,Line 4 (4 Phases),2019,X,0,19,,,#N/A,#N/A,17,859.4,16328.9
+8219,EG,Cairo,,Line 5,X,X,0,19,,,#N/A,#N/A,,,
+,EG,Cairo,Line 6,All Phases,,,0,,,,,,,,
+,EG,Cairo - New Capital,Capital LRT,Capital LRT Phase 1 and 2,2018,2022,1,68.81,0.00,0,See notes.,See notes.,11,,
+,EG,Cairo - New Capital,Capital LRT,Capital LRT Phase 3,2018,2023,1,18.5,0.00,0,See notes.,See notes.,4,,
+,EG,Cairo - New Capital,Capital LRT,Capital LRT Phase 4,2018,2023,1,16,0.00,0,7.5,8.5,3,,
+,EG,Cairo - New Capital,Capital LRT,Capital LRT All Phases,2018,2023,1,103.31,0.00,0,See notes.,See notes.,18,,
+7443,ES,Barcelona,L3,L3 to Trinitat Nova,2001,2008,0,1.9,100.00,1.9,0,0,2,169.4,321.9
+7450,ES,Barcelona,L2,L2 to Badalona,2006,2010,0,0.7,100.00,0.7,0,0,1,187.0,130.9
+7451,ES,Barcelona,L5,L5 to Vall d'Hebron,2007,2010,0,2.5,100.00,2.5,0,0,3,239.4,598.4
+7448,ES,Barcelona,Terrassa tunnel,Terrassa tunnel,2008,2015,0,4.5,100.00,4.5,0,0,3,165.9,746.5
+7449,ES,Barcelona,Sabadell tunnel,Sabadell tunnel,2006,2017,0,4.4,100.00,4.4,0,0,4,181.9,800.5
+7456,ES,Barcelona,L9/10,L9/10,2003,2026,0,47.8,91.00,43.7,0,0,52,220.3,10531.7
+7457,ES,Bilbao,Line 3,Line 3,2007,2016,0,5.9,95.00,5.6,0,0,7,88.0,519.4
+7378,ES,Madrid,1995-98 program,1995-98 program,1995,1998,0,56,68.00,38,0,0,37,70.7,3961.2
+7379,ES,Madrid,1999-2003 program,1999-2003 program,1999,2003,0,75,77.00,58,0,0,39,95.7,7177.6
+7394,ES,Madrid,Chamartin-Atocha tunnel,Chamartin-Atocha tunnel,2003,2008,1,7.5,100.00,7.5,0,0,3,146.5,1098.5
+7387,ES,Madrid,Line 2,Line 2 extension,2008,2011,0,4.6,100.00,4.6,0,0,4,131.5,604.9
+7392,ES,Madrid,Line 9,Line 9 extension,2009,2015,0,3,100.00,3,0,0,2,116.1,348.4
+,ES,Madrid,Line 11,Extension to Conde de Casal,2022,2026,0,7,100,7,0,0,5,109.5,766.4
+7386,ES,Madrid,Eje Transversal,Eje Transversal,2020,2028,1,10.5,100.00,10.5,0,0,4,101.3,1064.0
+7459,ES,Malaga,Lines 1-2,Lines 1-2,2006,2014,0,11.3,81.00,9.2,0,0,17,147.9,1670.7
+7458,ES,Seville,Line 1,Line 1,2003,2009,0,18.2,64.00,11.6,6.552,0,22,97.9,1781.5
+7216,FI,Helsinki,Ring Rail Line,Ring Rail Line,2009,2015,1,18,44.00,8,0,0,5,78.4,1411.3
+7211,FI,Helsinki,West Metro,West Metro phase 1,2009,2017,0,13.5,100.00,13.5,0,0,8,155.9,2104.9
+7212,FI,Helsinki,West Metro,West Metro phase 2,2014,2023,0,7,100.00,7,0,0,5,286.7,2007.1
+7472,FR,Lyon,Line A,Line A to Vaulx,2005,2007,0,1,100.00,1,0,0,1,105.9,105.9
+7473,FR,Lyon,Line B,Line B to Oullins,2009,2013,0,1.8,100.00,1.8,0,0,1,229.6,413.3
+7474,FR,Lyon,Line B,Line B to Hospital-Sud,2017,2023,0,2.5,100.00,2.5,0,0,2,255.0,637.5
+11257,FR,Paris,RER D,RER D Gare de Lyon-Les Halles,1991,1995,1,2.5,100.00,2.5,0,0,0,281.0,702.4
+7395,FR,Paris,Line 14,Line 14,1993,2007,0,9.2,100.00,9.2,0,0,9,280.6,2581.7
+7426,FR,Paris,Line 13,Line 13 to Courtilles,2005,2008,0,1.9,100.00,1.9,0,0,2,166.1,315.6
+7425,FR,Paris,Line 8,Line 8 to Pointe-du-Lac,2007,2011,0,1.3,0.00,0,0,0,1,131.6,171.1
+7427,FR,Paris,Line 12,Line 12 to Front Populaire,2007,2012,0,1.5,100.00,1.5,0,0,1,383.9,575.8
+7424,FR,Paris,Line 4,Line 4 to Montrouge,2008,2013,0,1.5,100.00,1.5,0,0,1,237.2,355.8
+7330,FR,Paris,Line 12,Line 12 to Aubervilliers,2012,2021,0,1.7,100.00,1.7,0,0,2,205.7,349.7
+7418,FR,Paris,Line 4,Line 4 to Bagneux,2014,2021,0,1.8,100.00,1.8,0,0,2,393.0,707.4
+7419,FR,Paris,RER E,RER E extension,2018,2022,1,8,100.00,8,0,0,2,410.4,3283.0
+7432,FR,Paris,Line 11,Line 11,2016,2024,0,6.3,90.00,5.7,0.6,0,6,304.4,1917.4
+7240,FR,Paris,Grand Paris Express,Grand Paris Express,2017,2030,0,200,80.00,160,0,0,68,329.2,65841.6
+7331,FR,Paris,Line 1,Line 1 extension,2021,2030,0,4.9,100.00,4.9,0,0,3,482.9,2366.1
+9770,FR,Rennes,Line B,Line B,2014,2021,0,14,79.00,11,0,0,15,155.1,2171.3
+7203,FR,Toulouse,Line 3,Line 3,2021,2025,0,27,60.00,16.2,0,0,21,172.5,4658.4
+7314,GR,Athens,Line 3,Line 3 to Piraeus,2012,2021,0,7.6,100.00,7.6,0,0,6,170.3,1294.6
+7313,GR,Athens,Line 4,Line 4,2019,2027,0,12.8,100.00,12.8,0,0,15,142.6,1825.1
+7315,GR,Thessaloniki,Main line,Main line,2006,2020,0,9.5,100.00,9.5,0,0,13,207.0,1967.0
+7320,GR,Thessaloniki,Kalamaria Extension,Kalamaria Extension,2013,2021,0,4.8,100.00,4.8,0,0,5,201.8,968.6
+9781,HK,Hong Kong,Modified Initial System,Modified Initial System,1975,1980,0,15.6,82.10,12.8,2.8,0,15,1758.8,27437.1
+9782,HK,Hong Kong,Tsuen Wan Line,Tsuen Wan Extension,1978,1982,0,10.5,80.00,8.4,2,0.1,10,901.5,9466.1
+9783,HK,Hong Kong,Island Line,Island Line,1981,1986,0,12.5,84.00,10.5,2,0,14,1110.6,13882.8
+9784,HK,Hong Kong,Eastern Harbour Crossing,Eastern Harbour Crossing,1986,1989,0,4.6,100.00,4.6,0,0,1,291.3,1339.8
+9773,HK,Hong Kong,Airport Railway,Airport Railway,1994,1998,0,34,23.53,8,6,20,9,384.1,13059.9
+9774,HK,Hong Kong,Kwung Tong Line,Quarry Bay Congestion Relief Works (Kwung Tong Extension),1997,2001,0,2.1,100.00,2.1,0,0,0,520.3,1092.7
+9775,HK,Hong Kong,Tseung Kwan Line,Tseung Kwan O Extension,1999,2002,0,4,100.00,4,0,0,5,1411.2,5644.7
+9776,HK,Hong Kong,Penny's Bay Rail Link,Penny's Bay Rail Link (Disneyland Resort Line),2001,2005,0,3.5,25.00,0.875,0,2.625,2,211.6,740.5
+9789,HK,Hong Kong,,Airport Express Extension,,2005,0,1.3,0.00,0,1.3,0,1,,
+9790,HK,Hong Kong,,LOHAS Park Spur Line,,2009,0,1.8,,,,,,,
+9791,HK,Hong Kong,,Kowloon Southern Link,,2009,1,,,,,,,,
+9772,HK,Hong Kong,West Island Line,West Island Line,2009,2016,0,3,100.00,3,0,0,3,1586.7,4760.2
+9778,HK,Hong Kong,Kwung Tong Line,Kwun Tong Line extension,2011,2016,0,2.6,100.00,2.6,0,0,2,690.4,1795.0
+9777,HK,Hong Kong,South Island Line,South Island Line (East),2011,2016,0,7,71.00,5,2,0,5,601.9,4213.2
+9780,HK,Hong Kong,Sha Tin-Central Link,Sha Tin-Central Link,2012,2022,1,17,88.00,15,0,0,9,1122.9,19089.7
+9771,HK,Hong Kong,Tung Chung Line,Tung Chung Line extension,2023,2029,0,1.8,100.00,1.8,0,0,1,2350.8,4231.4
+9779,HK,Hong Kong,Tuen Mun Line,Tuen Mun South Extension,2023,2030,0,2.4,0.00,0,0,0,2,1107.1,2657.1
+7202,HU,Budapest,Line 4,Line 4,2006,2014,0,7.4,100.00,7.4,0,0,10,714.6,5288.2
+7467,ID,Jakarta,MRT first phase,MRT first phase,2013,2019,0,15.7,38.00,5.9,0,0,13,250.8,3938.1
+7433,IL,Tel Aviv,Red Line,Red Line,2015,2022,0,24,50.00,12,0,0,34,252.1,6050.6
+7434,IL,Tel Aviv,Green Line,Green Line,2018,2024,0,38.6,12.00,4.6,0,0,62,172.8,6671.0
+,IN,Agra,Lines 1 and 2,Lines 1 and 2,2019,2026,0,29.65,25.91,7.681,21.969,,27,150.2,4454.8
+7546,IN,Ahmadabad,Line,Phase 1,2015,2023,0,40,16.00,6.4,0,0,33,188.0,7520.6
+7537,IN,Bangalore,Green line,Phase 1,2006,2017,0,42.3,20.00,8.5,0,0,41,312.1,13202.0
+7536,IN,Bangalore,Green line,Phase 2,2017,2024,0,73.9,18.67,13.8,0,0,62,243.0,17955.3
+7553,IN,Chennai,Phase 1,Phase 1,2009,2019,0,45.1,53.00,24,0,0,34,325.8,14695.0
+7554,IN,Chennai,Phase 1,Phase 1 extension,2016,2020,0,9.1,26.00,2.4,0,0,9,255.1,2321.3
+7555,IN,Chennai,Phase 2,Phase 2,2020,2026,0,118.9,36.00,42.8,0,0,128,289.1,34372.7
+9785,IN,Delhi,Noida Metro,Noida Metro,2015,2019,0,29.7,0.00,0,0,0,21,90.5,2687.7
+7368,IN,Delhi,Phase 3,Phase 3,2012,2020,0,160.6,33.00,53,0,0,109,171.6,27566.2
+7369,IN,Delhi,Phase 4,Phase 4 first half,2019,2025,0,61.7,36.00,22.3,0,0,46,209.2,12906.2
+7370,IN,Delhi,Phase 4,Phase 4 second half,2019,2025,0,42.3,35.00,14.7,0,0,43,263.4,11141.0
+7538,IN,Gurgaon,Gurgaon,Phase 1,2009,2013,0,5.5,0.00,0,0,0,6,181.3,997.1
+7539,IN,Gurgaon,Gurgaon,Phase 2,2013,2017,0,6.3,0.00,0,0,0,5,271.8,1712.3
+7547,IN,Hyderabad,Metro,Phase 1,2012,2020,0,72,0.00,0,0,0,66,175.2,12615.8
+7552,IN,Hyderabad,Airport express,Airport express,2020,,0,31,8.00,2.5,0,0,10,87.7,2720.1
+9786,IN,Jaipur,Metro,Phase 1,2011,2020,0,12.1,23.00,2.8,0,0,11,238.5,2886.0
+,IN,Kanpur,Line 1,Line 1 and 2,2019,2022,0,32.385,39.90,12.921,19.464,,31,175.6,5688.2
+7363,IN,Kochi,Metro,Metro,2013,2017,0,13,0.00,0,0,0,11,281.6,3661.4
+9787,IN,Lucknow,Line 1,Line 1,2014,2019,0,22.9,15.00,3.4,0,0,22,203.0,4649.1
+7288,IN,Mumbai,Monorail,Monorail,2009,2019,0,20.2,0.00,0,0,0,17,109.1,2204.3
+7290,IN,Mumbai,Line 2,Line 2A,2016,2021,0,18.6,0.00,0,17.48,1.12,17,212.2,3946.9
+7304,IN,Mumbai,Line 7,Line 7,2016,2021,0,16.5,0.00,0,15.505,0.995,14,231.7,3822.5
+7289,IN,Mumbai,Line 3,Line 3,2016,2022,0,33.5,100.00,33.5,0,0,27,565.7,18949.6
+7299,IN,Mumbai,Line 6,Line 6,2017,2022,0,14.5,0.00,0,14.5,0,13,257.6,3735.7
+7296,IN,Mumbai,Line 4,Line 4,2018,2022,0,32.3,0.00,0,31.71,0.59,32,263.5,8510.6
+7297,IN,Mumbai,Line 4,Line 4A,2019,2022,0,2.7,0.00,0,0,0,2,183.6,495.8
+7305,IN,Mumbai,Line 7A + 9,Line 7A + 9,2019,2022,0,13.5,16.00,2.2,0,0,11,282.4,3812.8
+7291,IN,Mumbai,Line 2,Line 2B,2018,2023,0,23.5,0.00,0,23.5,0,22,273.5,6426.4
+7298,IN,Mumbai,Line 5,Line 5,2017,2024,0,24.9,0.00,0,0,0,16,197.7,4923.3
+7306,IN,Mumbai,Line 10,Line 10,2020,2024,0,9.2,8.00,0.7,0,0,4,255.7,2352.7
+7307,IN,Mumbai,Line 11,Line 11,2020,2026,0,12.8,69.00,8.8,0,0,10,340.8,4362.5
+7312,IN,Mumbai,Line 12,Line 12,2020,2026,0,20.8,0.00,0,0,0,17,140.3,2917.3
+7544,IN,Nagpur,Nagpur,Phase 1,2014,2020,0,38.2,0.00,0,0,0,40,167.0,6377.6
+7545,IN,Nagpur,Nagpur,Phase 2,,,0,43.8,0.00,0,0,0,32,157.7,6906.1
+,IN,Patna,,Lines 1 and 2,2019,2025,0,39.6,41.16,16.3,23.3,,25,179.4,7105.5
+,IN,Pune,,Lines 1 and 2,2017,2024,0,33.1,15.38,5.09,28.01,,29,211.3,6992.9
+,IN,Pune,,Line 3,2020,2026,0,23.3,0.00,0,23.3,,23,186.7,4350.6
+,IN,Surat,Line 1 and 2,Line 1 and 2,2021,2023,0,40.35,16.03,6.47,33.88,,38,153.0,6172.9
+7371,IR,Tehran,Line 3,Line 3 extension to SW,2012,2014,0,12,100.00,12,0,0,11,276.5,3318.5
+7377,IR,Tehran,Line 7,Line 7,,2019,0,27,100.00,27,0,0,25,280.3,7569.3
+7376,IR,Tehran,Line 6,Line 6,,2020,0,31,100.00,31,0,0,29,244.2,7569.3
+9788,IT,Brescia,Metro,Metro,2003,2013,0,13.7,71.00,9.7,0,0,17,101.6,1392.6
+,IT,Catania,Galatea-Stesicoro,Galatea-Stesicoro,2001,2016,0,1.9,100.00,1.9,0,0,2,81.6,155.0
+,IT,Catania,Borgo-Nesima,Borgo-Nesima,2007,2017,0,3.1,100.00,3.1,0,0,4,61.2,189.7
+,IT,Catania,Nesima-Monte Po,Nesima-Monte Po,2015,2022,0,1.7,100.00,1.7,0,0,2,91.2,155.1
+,IT,Catania,Monte-Po- MisterbiancoCentro,Monte-Po- MisterbiancoCentro,2019,2024,0,2.1,100.00,2.1,0,0,2,91.3,191.6
+,IT,Catania,Stesicoro-Aeroporto,Stesicoro-Aeroporto,2017,2025,0,6.4,100.00,6.4,0,0,8,105.9,677.9
+,IT,Catania,Misterbianco Centro-Paterno',Misterbianco Centro-Paterno',2022,2026,0,11.5,52.00,6,0,5.5,5,48.8,561.6
+,IT,Genova,Principe - De Ferrari,Principe - De Ferrari,1998,2006,0,2.5,100.00,2.5,0,0,4,197.4,493.5
+,IT,Genova,De Ferrari - Brignole,De Ferrari - Brignole,2006,2012,0,1.5,87.00,1.3,0,0.2,1,260.2,390.4
+,IT,Genova,Brin-Canepari + Brignole Martinez,Brin-Canepari + Brignole Martinez,2020,2023,0,1.5,0.00,0,0.3,1.2,2,60.1,90.1
+7241,IT,Milan,Passante Railway,Tunnel Section,1984,2004,1,7.8,90.00,7.8,0.02,5.18,10,313.1,2442.0
+,IT,Milan,M1,M1 (Molino Dorino-Rho MilanoFiera),2003,2005,0,2.1,100.00,2.1,0,0,2,100.3,210.6
+,IT,Milan,M1,M2 (Famagosta-Assago),?,2011,0,4.8,0.00,0,0,4.8,2,31.3,150.1
+,IT,Milan,M3,M3 (Maciachini-Comasina),?,2011,0,3.9,100.00,3.9,0,0,4,146.8,572.5
+7233,IT,Milan,M5,M5 phase 1,2007,2013,0,6.1,100.00,6.1,0,0,9,159.9,975.5
+7234,IT,Milan,M5,M5 phase 2,2010,2015,0,6.5,100.00,6.5,0,0,10,210.7,1369.7
+,IT,Milan,M1,M1 (Sesto FS - Monza Bettola),2010,2022,0,1.9,100.00,1.9,0,0,2,133.0,252.6
+7235,IT,Milan,Line 4,Line 4,2015,2024,0,15.2,100.00,15.2,0,0,21,182.8,2779.1
+,IT,Milan,M1,M1 (Bisceglie - Baggio),2022,2027,0,3.3,100.00,3.3,0,0,3,156.0,514.8
+,IT,Milan,M5,M5 (Bignami Moza),2022,2029,0,12.6,100.00,12.6,0,0,12,129.0,1625.0
+,IT,Naples,Line 1,Line 1 (Piscinola - Dante),1986,2003,0,13.7,70.00,9.6,4.1,0,14,344.7,4722.5
+,IT,Naples,MCNE,MCNE (Piscinola- Aversa),2001,2009,0,10.6,100.00,10.6,0,0,5,123.6,1310.1
+9793,IT,Naples,Line 1,Line 1 - city center,1999,2021,0,4.3,100.00,4.3,0,0,5,694.5,2986.2
+9795,IT,Naples,Line 1,Line 6 (Mostra-Municipio),2002,2021,0,3.3,100.00,3.3,0,0,4,445.7,1470.7
+,IT,Naples,Line 1/MCNE (Piscinola-Secondigliano),Line 1/MCNE (Piscinola-Secondigliano),1999,2023,0,3.3,100.00,3.3,0,0,4,227.5,750.9
+9794,IT,Naples,Line 1,Line 1 airport extension,2014,2024,0,3.5,100.00,3.5,0,0,4,305.1,1067.9
+7257,IT,Rome,Line C,Line C - section T6a,2007,2013,0,2.8,100.00,2.8,0,0,4,273.7,766.2
+7258,IT,Rome,Line C,Line C - section T4-5,2007,2013,0,7.6,100.00,7.6,0,0,9,304.7,2316.0
+7256,IT,Rome,Line B1,Line B1 extension,2005,2015,0,4.7,100.00,4.7,0,0,3,295.3,1388.0
+7259,IT,Rome,Line C,Line C - section T3,2013,2023,0,2.7,100.00,2.7,0,0,2,531.8,1435.8
+7208,IT,Turin,Line 1,Line 1 phases 1-3,2000,2011,0,13.2,100.00,13.2,0,0,21,177.7,2346.2
+7209,IT,Turin,Line 1,Line 1 south (phase 4),2012,2021,0,1.9,100.00,1.9,0,0,2,173.6,329.8
+7210,IT,Turin,Line 1,Line 1 west (phase 5),2018,2024,0,3.4,100.00,3.4,0,0,4,161.8,550.1
+9796,IT,Turin,Line 2,Line 2 -phase 1-2,2024,2030,0,9.4,100.00,9.4,0,0,13,314.6,2957.7
+7523,JP,Fukuoka,Nanakuma Line,Nanakuma Line extension,2014,2022,0,1.6,100.00,1.6,0,0,2,470.6,753.0
+9801,JP,Osaka,Hanshin Namba Line,Hanshin Namba Line,2003,2009,1,3.8,100.00,3.8,0,0,3,428.9,1629.7
+7504,JP,Osaka,Higashi Line,Higashi Line,1999,2019,1,20.3,0.00,0,0,0,0,77.2,1567.5
+7499,JP,Osaka,Tokaido,Tokaido branch relocation,2015,2023,1,2.4,100.00,2.4,0,0,1,362.2,869.4
+7505,JP,Osaka,Monorail,Monorail extension,2018,2029,0,8.9,0.00,0,0,0,4,148.6,1322.9
+7592,JP,Tokyo,Yurikamome,Yurikamome,1988,1995,0,12,0.00,0,0,0,12,181.1,2173.6
+7514,JP,Tokyo,Tama Monorail,Tama Monorail first phase,1991,2000,0,16,0.00,0,0,0,19,192.0,3071.5
+7512,JP,Tokyo,Oedo Line ring,Oedo Line ring,1992,2000,0,27.8,100.00,27.8,0,0,27,440.0,12233.1
+7507,JP,Tokyo,Minatomirai Line,Minatomirai Line,1993,2004,1,4.1,100.00,4.1,0,0,6,780.4,3199.6
+7531,JP,Tokyo,Tsukuba Express,Tsukuba Express,1997,2005,0,58.3,28.00,16.3,0,0,20,228.1,13296.3
+7506,JP,Tokyo,Fukutoshin Line,Fukutoshin Line,2001,2008,0,8.9,100.00,8.9,0,0,8,354.5,3154.6
+7520,JP,Tokyo,Tokyo-Ueno Line,Tokyo-Ueno Line,2008,2015,1,3.8,0.00,0,0,0,0,135.7,515.5
+7521,JP,Tokyo,Sotetsu Shin-Yokohama,Sotetsu Shin-Yokohama JR Line,2010,2019,1,2.7,78.00,2.1,0,0,1,544.6,1470.3
+7522,JP,Tokyo,Sotetsu Shin-Yokohama,Sotetsu Shin-Yokohama Tokyu Line,2010,2022,1,10,80.00,8,0,0,2,370.8,3707.7
+7515,JP,Tokyo,Monorail,Monorail to Tokyo Station,2015,2025,1,3,0.00,0,0,0,,454.3,1362.8
+7513,JP,Tokyo,Haneda express line,Haneda express line,2022,2029,1,5.6,100.00,5.6,0,0,2,535.7,3000.0
+7321,KR,Busan,Line 1,Line 1 extension,2009,2017,0,8,100.00,8,0,0,6,190.6,1524.9
+,KR,Incheon,Line 2,Line 2,2009,2016,0,29.1,78.35,22.8,,,27,138.7,4036.4
+,KR,Incheon,Line 2,Line 2 Goyang Extension Project,2020,,0,18.5,,,,,,142.5,2635.7
+,KR,Seoul,Line 2,,,1980,0,50.2,,,,,,,
+7248,KR,Seoul,Sinbundang,Sinbundang Phase 1,2005,2011,0,17.3,100.00,17.3,0,0,6,157.3,2721.1
+,KR,Seoul,Ui Light Metro,Ui Light Metro,2009,2017,0,11.4,100.00,11.4,,,13,110.6,1260.4
+7249,KR,Seoul,Sinbundang,Sinbundang Phase 2,2011,2018,0,12.8,100.00,12.8,0,0,7,166.4,2130.1
+7322,KR,Seoul,Gimpo Urban Railway,Gimpo Urban Railway,2014,2019,0,23.7,100.00,23.7,0,0,10,108.7,2577.0
+,KR,Seoul,Line 5 Hanam Line,Line 5 Hanam Line,2014,2020,0,7.7,100.00,7.7,,,5,167.4,1289.1
+7323,KR,Seoul,Line 7,Line 7 extension,2014,2021,0,3.9,100.00,3.9,0,0,2,160.2,624.6
+,KR,Seoul,Jinjeop Line,Jinjeop Line,2014,2022,0,14.9,100.00,14.9,,,4,120.5,1795.9
+,KR,Seoul,Sillim Light Metro,Sillim Light Metro,2017,2022,0,7.8,100.00,7.8,,,11,131.9,1028.5
+,KR,Seoul,GTX A,GTX A,2018,2025,1,83.1,,,,,,33.3,2767.4
+,KR,Seoul,Sin Ansan Line,Sin Ansan Line,2019,2025,0,44.7,100.00,44.7,,,15,105.3,4707.4
+7328,KR,Seoul,2020s program,2020s program,2020,2028,0,71,100.00,71,0,0,53,112.0,7953.2
+,KR,Seoul,Line 9,Line 9 Phase 4,2021,2028,0,4.1,100.00,4.1,,,4,223.0,914.1
+,KR,Seoul,Line 7,Line 7 Extension 2,2022,,0,10.7,,,,,7,209.8,2245.2
+,KR,Seoul,Sinbundang,Sinbundang Phase 3 Section 1,2022,,0,4.19,100.00,4.19,,,1,145.4,609.3
+,KR,Seoul,Sinbundang,Sinbundang Phase 3 Section 2,2022,,0,3.59,100.00,3.59,,,2,141.5,508.0
+,KR,Seoul,Sinbundang,Sinbundang Phase 3 Section 3,2022,,0,2.571,100.00,2.571,,,1,137.3,352.9
+,KR,Seoul,Line 9,Line 9 Phase 1,,,0,25.1,95.62,24,,,25,,
+8225,KW,Kuwait City,Kuwait Metro,Kuwait Metro,2020,2025,0,160,35.00,56.0,0,0,68,236.5,37835.6
+7250,MX,Guadalajara,Line 3,Line 3,2014,2020,0,21.5,25.00,5.4,14.595,1.53,18,204.1,4387.8
+7227,MX,Mexico City,Line 12,Line 12,2008,2012,0,24.5,43.00,10.5,12.57,1.395,20,375.5,9199.7
+7608,MY,Kuala Lumpur,Kajang Line,Kajang Line,2012,2017,0,51,19.00,9.5,0,0,31,392.2,20001.5
+7609,MY,Kuala Lumpur,Putrajaya Line (MRT 2),Putrajaya Line (MRT 2),2016,2023,0,52.2,26.00,13.5,0,0,41,515.8,26926.3
+7145,NL,Amsterdam,Amsterdam North South,Amsterdam North South,2003,2018,0,9.7,73.00,7.1,0,0,8,623.8,6050.8
+7272,NO,Oslo,Løren Line,Løren Line,2013,2016,0,1.6,100.00,1.6,0,0,1,121.0,193.6
+7273,NO,Oslo,Fornebu Line,Fornebu Line,2020,2029,0,8.2,100.00,8.2,0,0,6,394.2,3232.4
+7435,NZ,Auckland,City Rail Link,City Rail Link,2013,2024,1,3.5,100.00,3.5,0,0,4,1096.5,3837.6
+7345,PA,Panama City,Line 1,Line 1,2010,2014,0,13.7,53.00,7.3,4.69,1.749,12,358.0,4904.3
+7346,PA,Panama City,Line 2,Line 2,2015,2019,0,21,0.00,0,21,0,16,267.9,5626.1
+7347,PA,Panama City,Line 3,Line 3,2020,2028,0,24.5,27.00,6.5,18,0,14,339.6,8320.0
+7603,PE,Lima,Line 2,Line 2,2014,2025,0,35,100.00,35,0,0,35,399.2,13970.8
+7353,PH,Manila,Line 7,Line 7,2015,2021,0,22.8,15.00,3.4,0,0,14,214.4,4889.3
+7354,PH,Manila,Line 5,Line 5,2019,2025,0,11,100.00,11,0,0,10,665.4,7319.4
+7352,PH,Manila,Line 9,Line 9,2019,2025,0,28.3,100.00,28.3,0,0,13,763.6,21609.1
+7355,PH,Manila,Line 4,Line 4,2021,2025,0,15.6,0.00,0,0,0,11,221.0,3447.9
+7475,PK,Lahore,Orange Line,Orange Line,2015,2020,0,27.1,6.00,1.6,0,0,26,292.8,7935.9
+11256,PL,Łódź,Cross-City Line,Cross-City Line,2018,2023,1,5.25,100.00,5.25,0,0,2,234.1,1228.9
+7178,PL,Warsaw,Line 2,Line 2,2010,2015,0,6.5,100.00,6.5,0,0,7,709.3,4610.6
+7179,PL,Warsaw,Line 2,Line 2 extension to Trocka,2015,2019,0,3.1,100.00,3.1,0,0,3,261.3,809.9
+7184,PL,Warsaw,Line 2,Line 2 extension to KJ,2015,2020,0,3.4,100.00,3.4,0,0,3,255.6,869.0
+7185,PL,Warsaw,Line 2,Line 2 extension to Bródno,2018,2022,0,4,100.00,4,0,0,3,248.7,994.9
+7384,PT,Lisbon,Circular line,Circular line,2021,2023,0,2,100.00,2,0,0,2,166.9,333.8
+7385,PT,Porto,"Pink line, yellow line","Pink line, yellow line",2019,2025,0,6,47.00,2.8,0,0,7,131.2,787.4
+7388,PT,Porto,Ruby line,Ruby line,2020,2026,0,6.3,100.00,6.3,0,0,8,114.6,722.2
+8193,QA,Doha,Doha Metro,Doha Metro,2013,2026,0,124,89.92,111.5,0,0,,1003.6,124444.9
+7186,RO,Bucharest,Line 5,Line 5,2014,2019,0,6.9,100.00,6.9,0,0,10,361.9,2497.3
+,RO,Cluj-Napoca,Line 1,Line 1,2024,2031,0,21,100,21,,,19,402.8,8458.0
+9802,RS,Belgrade,Metro Line 1,Metro Line 1,2021,2026,0,22,100.00,22,0,0,24,263.8,5803.7
+9803,RS,Belgrade,Metro Line 2,Metro Line 2,2021,2026,0,20,100.00,20,0,0,21,354.7,7093.4
+20041,RU,Kazan,Line 1,Kremliovskaya — Gorki,2000,2005,0,6.8,97.06,6.6,0.2,0,4,266.6,1813.0
+20042,RU,Kazan,Line 1,Gorki — Prospekt Pobedy,2006,2008,0,1.6,100.00,1.6,0,0,1,#N/A,#N/A
+20043,RU,Kazan,Line 1,Kremliovskaya — Koz'ya Sloboda,2006,2010,0,2.6,100.00,2.6,0,0,1,120.4,313.0
+20044,RU,Kazan,Line 1,Koz'ya Sloboda — Aviastroitelnaya,2009,2013,0,4.8,100.00,4.8,0,0,3,194.1,931.7
+20045,RU,Kazan,Line 1,Prospekt Pobedy — Dubravnaya,2015,2018,0,1.1,100.00,1.1,0,0,1,257.5,283.3
+20046,RU,Kazan,Line 2,Stoletiye TaSSR (Fuchika) — Tulpar (Sakharova),2019,2027,0,5.37,100.00,5.37,0,0,4,215.7,1158.4
+20054,RU,Moscow,Line 9,Ulitsa Akademika Yangelia — Annino,2000,2001,0,1.21,100.00,1.21,0,0,1,#N/A,#N/A
+20055,RU,Moscow,Line 9,Annino — Bul'var Dmitriya Donskogo,2001,2002,0,2.03,100.00,2.03,0,0,1,#N/A,#N/A
+20057,RU,Moscow,Line 12,Ulitsa Starokachalovskaya — Buninskaya Alleya,1999,2003,0,5.9,33.90,2,3.9,0,5,197.3,1163.9
+20056,RU,Moscow,Line 3,Kievskaya — Park Pobedy,2000,2003,0,4.2,100.00,4.2,0,0,2,#N/A,#N/A
+20058,RU,Moscow,Line 13 | Monorail,Ulitsa Sergeya Eisenshteyna — Timiryazevskaya,2001,2004,0,5.13,0.00,0,5.13,0,6,71.2,365.4
+20059,RU,Moscow,Line 4,Kievskaya — Mezhdunarodnaya,2000,2006,0,2.72,100.00,2.72,0,0,1,423.9,1153.1
+20060,RU,Moscow,Line 10,Chkalovskaya — Trubnaya,2005,2007,0,3.2,100.00,3.2,0,0,2,338.2,1082.3
+20061,RU,Moscow,Line 3,Park Pobedy — Kuntsevskaya & Krylatskoe — Strogino,2005,2008,0,11.49,94.34,10.84,0,0.65,3,185.3,2129.5
+20062,RU,Moscow,Line 3,Strogino — Mitino,2007,2009,0,8.51,100.00,8.51,0,0,3,323.8,2755.1
+20063,RU,Moscow,Line 10,Trubnaya — Mar'yina Roshcha,2007,2010,0,3.5,100.00,3.5,0,0,2,608.9,2131.1
+20064,RU,Moscow,Line 10,Mar'yino — Zyablikovo,2008,2011,0,4.2,100.00,4.2,0,0,3,467.3,1962.7
+20065,RU,Moscow,Line 8,Novogireevo — Novokosino,2009,2012,0,3.39,100.00,3.39,0,0,1,405.8,1375.8
+20068,RU,Moscow,Line 2,Krasnogvardeyskaya — Alma-Atinskaya,2011,2012,0,4.2,100.00,4.2,0,0,1,292.1,1226.7
+20066,RU,Moscow,Line 3,Mitino — Pyatnitskoe Shosse,2011,2012,0,1,100.00,1,0,0,1,415.6,415.6
+20021,RU,Moscow,Line 7,Vykhino — Zhulebino,2011,2013,0,5.18,93.24,4.83,0,0.35,2,360.5,1867.2
+20067,RU,Moscow,Line 12,Bittsevskiy Park — Ulitsa Starokachalovskaya,2010,2014,0,4.52,100.00,4.52,0,0,2,294.2,1329.8
+20004,RU,Moscow,Line 8A,Delovoy Tsentr — Park Pobedy,2012,2014,0,3.35,100.00,3.35,0,0,0,470.4,1575.8
+20023,RU,Moscow,Line 7,Spartak (quasi-infill station),2013,2014,0,0,,0,0,0,1,n/a,254.9
+20022,RU,Moscow,Line 7,Zhulebino — Kotelniki,2012,2015,0,1.54,100.00,1.54,0,0,1,406.6,626.1
+20020,RU,Moscow,Line 2,Tekhnopark (infill station),2014,2015,0,0,,0,0,0,1,n/a,209.1
+20009,RU,Moscow,Line 1,Yugo-Zapadnaya — Salaryevo,2011,2016,0,6.83,100.00,6.83,0,0,3,274.3,1873.5
+20005,RU,Moscow,Line 8A,Park Pobedy — Ramenki,2012,2017,0,7.25,100.00,7.25,0,0,3,394.3,2859.0
+20001,RU,Moscow,Line 10,Maryina Roschcha — Seligerskaya,2011,2018,0,11.75,100.00,11.75,0,0,6,504.0,5922.4
+20019,RU,Moscow,Line 2,Retchnoy Vokzal — Khovrino,2013,2018,0,2.92,100.00,2.92,0,0,2,378.4,1105.0
+20006,RU,Moscow,Line 8A,Ramenki — Rasskazovka,2014,2018,0,15.3,100.00,15.3,0,0,7,312.0,4774.0
+20012,RU,Moscow,Lines 11 (Great Circle) & 17,Delovoy Tsentr — Saviolovskaya,2014,2018,0,11.45,100.00,11.45,0,0,5,529.1,6058.2
+20010,RU,Moscow,Line 1,Salaryevo — Novomoskovskaya,2016,2019,0,11.51,56.56,6.51,1,4,2,168.4,1938.7
+20018,RU,Moscow,Lines 11 (Great Circle) & 15,Aviamotornaya — Nekrasovka,2015,2020,0,21.43,100.00,21.43,0,0,8,398.2,8534.4
+20008,RU,Moscow,Lines 8A & 8,Tretyakovskaya — Delovoy Tsentr,2018,2020,0,1.4,100.00,1.4,0,0,0,558.7,782.2
+20014,RU,Moscow,Line 11 (Great Circle),Khoroshovskaya — Kuntsevskaya,2017,2021,0,8.11,100.00,8.11,0,0,3,576.6,4676.3
+20016,RU,Moscow,Line 11 (Great Circle),Prospekt Vernadskogo — Kuntsevskaya,2017,2021,0,8.41,100.00,8.41,0,0,4,544.1,4576.1
+20017,RU,Moscow,Line 11 (Great Circle),"Kakhovskaya (incl. Kashirskaya, Varhavskaya) — Prospekt Vernadskogo",2017,2021,0,8.27,100.00,8.27,0,0,3,562.8,4654.4
+20015,RU,Moscow,Line 11 (Great Circle),Kashirskaya — Nizhegorodskaya,2018,2022,0,10.7,100.00,10.7,0,0,4,484.0,5178.6
+20013,RU,Moscow,Line 11 (Great Circle),Saviolovskaya — Aviamotornaya,2017,2023,0,10.86,100.00,10.86,0,0,5,654.6,7108.6
+20002,RU,Moscow,Line 10,Seligerskaya — Lianozovo,2018,2023,0,3.9,100.00,3.9,0,0,2,382.0,1490.0
+20003,RU,Moscow,Line 10,Lianozovo — Fiztekh,2020,2023,0,1.9,100.00,1.9,0,0,1,582.6,1107.0
+20007,RU,Moscow,Line 8A,Rasskazovka — VKO Airport,2021,2023,0,4.9,90.61,4.44,0.46,0,2,383.4,1878.4
+20024,RU,Moscow,Line 16,Novatorskaya — Novomoskovskaya,2018,2024,0,15.6,100.00,15.6,0,0,7,448.3,6993.9
+20011,RU,Moscow,Line 1,Novomoskovskaya — Potapovo,2019,2024,0,2.4,43.75,1.05,0,1.35,1,327.8,786.8
+20025,RU,Moscow,Line 16,Novatorskaya — Krymskaya,2021,2025,0,7.1,100.00,7.1,0,0,3,427.3,3033.9
+20026,RU,Moscow,Line 16,Krymskaya — ZiL,2022,2025,0,2.5,100.00,2.5,0,0,1,429.0,1072.6
+20027,RU,Moscow,Line 17,Shelepikha — Lipovaya Roshcha — Ilyinskaya,2022,2026,0,19.32,100.00,19.32,0,0,8,434.9,8402.5
+20050,RU,N. Novgorod,Line 2,Burnakovskaya — Burevestnik,1999,2002,0,1.5,57.33,0.86,0,0.64,1,#N/A,#N/A
+20051,RU,N. Novgorod,Line 1,Moskovskaya — Gor'kovskaya,2008,2012,0,3.4,63.71,2,1.234,0,1,604.2,2054.1
+20036,RU,N. Novgorod,Line 2,Moskovskaya — Strelka,2015,2018,0,3.1,100.00,3.1,0,0,1,188.9,585.7
+20035,RU,N. Novgorod,Line 1,Gor'kovskaya — Sennaya,2022,2026,0,3.29,100.00,3.29,0,0,2,305.6,1005.4
+20047,RU,Novosibirsk,Line 2,Marshala Pokryshkina — Beriozovaya Roshcha,2003,2007,0,1.2,100.00,1.2,0,0,1,#N/A,#N/A
+20048,RU,Novosibirsk,Line 2,Beriozovaya Roshcha — Zolotaya Niva,2007,2011,0,1.6,100.00,1.6,0,0,1,#N/A,#N/A
+20049,RU,Novosibirsk,Line 1,Sportivnaya,2019,2025,0,0,,0,0,0,0,n/a,129.6
+20037,RU,Samara,Line 1,Alabinskaya — Teatralnaya,2022,2026,0,1.6,100.00,1.6,0,0,1,336.4,538.2
+20038,RU,St. Petersburg,Line 1,Ploshchad Muzhestva — Lesnaya,1999,2004,0,0.79,100.00,0.79,0,0,0,0.0,0.0
+20039,RU,St. Petersburg,Line 5,Staraya Derevnya — Komendantskiy Prospekt,???,2005,0,2.7,100.00,2.7,0,0,1,0.0,0.0
+20040,RU,St. Petersburg,Line 3,Parnas,2005,2006,0,0,,0,0,0,1,n/a,126.8
+20033,RU,St. Petersburg,Line 5,Sadovaya — Mezhdunarodnaya,2004,2012,0,8.4,100.00,8.4,0,0,4,222.4,1868.5
+20031,RU,St. Petersburg,Line 2,Primorskaya — Begovaya,2014,2018,0,5.1,100.00,5.1,0,0,2,209.5,1068.2
+20034,RU,St. Petersburg,Line 5,Mezhdunarodnaya — Shushary,2011,2019,0,6.2,100.00,6.2,0,0,3,184.0,1140.5
+20030,RU,St. Petersburg,Line 4,Spasskaya — Gorniy Institut,2015,2024,0,3.6,100.00,3.6,0,0,2,376.9,1356.8
+20028,RU,St. Petersburg,Line 6,Kazakovskaya (Yugo-Zapadnaya) — Putilovskaya,2018,2025,0,2.57,100.00,2.57,0,0,2,953.4,2450.3
+20032,RU,St. Petersburg,Line 2,Begovaya — Kamenka,2022,2028,0,5,100.00,5,0,0,2,723.2,3616.1
+20029,RU,St. Petersburg,Line 6,Putilovskaya — Karetnaya,2024,2030,0,7,100.00,7,0,0,4,515.5,3608.4
+20053,RU,Volgograd,ST,Pionerskaya — Yelshanka,???,2011,0,3.7,100.00,3.7,0,0,3,0.0,0.0
+20052,RU,Yekaterinburg,Line 1,Geologicheskaya — Botanicheskaya,2007,2012,0,4.2,100.00,4.2,0,0,2,355.7,1493.9
+8192,SA,Ad Dammam,Dammam Metro,Dammam Metro (a-Sharqiya),2014,,0,50,0.00,0.0,0,0,,767.2,38360.2
+8186,SA,Jeddah,Jeddah Metro,Jeddah Metro,2014,2025,0,161.1,12.41,20.0,0,0,81,145.3,23402.6
+8187,SA,Mecca,Mecca Metro,Mecca Metro,2009,,,188,,,#N/A,#N/A,90,300.1,56417.6
+8171,SA,Riyadh,Blue,Blue,2015,2016,0,38,42.63,16.2,0,0,22,434.5,16511.1
+8179,SA,Riyadh,Green,Green,2015,2016,0,12.9,93.02,12.0,0,0,11,433.1,5586.7
+8177,SA,Riyadh,Orange,Orange,2014,2017,0,40.7,14.00,5.7,0,0,20,309.3,12587.8
+8184,SA,Riyadh,Purple,Purple,2014,2019,0,29.9,0.00,0.0,0,0,6,280.3,8380.1
+8176,SA,Riyadh,Red,Red,2014,2020,0,25.3,0.00,0.0,0,0,13,286.5,7247.7
+8178,SA,Riyadh,Yellow,Yellow,2014,2020,0,29.6,0.00,0.0,0,0,8,193.0,5712.6
+9804,SE,Gothenburg,West Link,West Link,2018,2026,1,8,75.00,6.0,0,0,3,420.4,3363.2
+7225,SE,Malmo,Citytunneln,Citytunneln,2005,2010,1,17,35.00,6,0,0,3,95.8,1629.1
+7224,SE,Stockholm,Citybanan,Citybanan,2007,2017,1,7.4,81.00,6,0,0,2,396.8,2936.2
+7219,SE,Stockholm,Blue Line,Barkarby,2020,2026,0,3.3,100.00,3.3,0,0,2,242.9,801.7
+7217,SE,Stockholm,Green Line,Arenastaden,2020,2030,0,4.1,100.00,4.1,0,0,2,208.7,855.8
+7218,SE,Stockholm,Blue Line,Nacka/Söderort,2020,2030,0,11.5,100.00,11.5,0,0,6,275.4,3167.2
+,SE,Stockholm,Yellow Line,Yellow Line,2025,2034,0,7.8,100.00,7.8,0,0,6,,
+,SG,Singapore,Circle Line,Circle Line Stages 1-5,2002,2012,0,35.5,100,35.5,,,30,406.1,14416.9
+7281,SG,Singapore,Downtown MRT Line,Downtown MRT Line,2008,2017,0,41.9,100.00,41.9,0,0,34,829.7,34765.7
+7282,SG,Singapore,Thomson MRT Line,Thomson MRT Line,2014,2024,0,43,100.00,43,0,0,32,827.8,35593.5
+7329,SG,Singapore,Circle Line,Circle Line Stage 6,2017,2025,0,4,100.00,4,0,0,3,1628.7,6514.9
+7480,TH,Bangkok,Sukhumvit Line,Sukhumvit Line to Kheka,2012,2018,0,12.8,0.00,0,0,0,9,231.3,2960.5
+7482,TH,Bangkok,Blue Line,Blue Line extension,2011,2020,0,26.9,20.00,5.4,0,0,19,293.4,7891.4
+7481,TH,Bangkok,Sukhumvit Line,Sukhumvit Line to Khu Khot,2015,2020,0,19,0.00,0,0,0,16,329.8,6265.4
+7488,TH,Bangkok,Pink Line,Pink Line,2017,2022,0,34.5,0.00,0,0,0,30,167.8,5789.1
+7489,TH,Bangkok,Yellow Line,Yellow Line,2017,2022,0,30.4,0.00,0,0,0,23,183.9,5589.4
+7490,TH,Bangkok,Orange Line,Orange Line,2017,2025,0,35.9,75.00,27,0,0,28,631.2,22658.6
+7483,TH,Bangkok,Brown Line,Brown Line,2020,,0,22.1,0.00,0,0,0,18,220.7,4877.9
+7491,TH,Chiang Mai,Red Line,Red Line,2022,2027,0,15.8,46.00,7.2,0,0,12,138.4,2187.0
+9827,TR,Adana,First stage,First stage,1996,2010,0,13.9,25.00,3.5,0,0,13,122.8,1706.4
+7633,TR,Ankara,M4,M4,2003,2017,0,9.22,100.00,9.22,0,0,9,176.2,1624.9
+7634,TR,Bursa,Bursaray,Bursaray,1997,2014,0,39,16.03,6.25,0,0,38,36.6,1426.0
+7616,TR,Istanbul,M4,M4 Phase 1,2005,2012,0,21.7,100.00,21.7,0,0,16,152.8,3315.6
+7619,TR,Istanbul,Marmaray,BC1,2004,2013,1,13.6,100.00,13.6,0,0,4,342.1,4653.1
+7611,TR,Istanbul,M3,M3 Phase 1,2006,2013,0,16.1,100.00,15.9,0,0,11,197.3,3176.6
+9836,TR,Istanbul,M1,M1A-M1B (LR),1987,2014,0,26.6,36.47,9.7,0,0,23,136.5,3629.7
+7610,TR,Istanbul,M2,M2,1992,2014,0,23.5,91.49,21.5,0,0,17,374.0,8788.1
+9828,TR,Istanbul,M6,M6,2013,2015,0,3.3,100.00,3.3,0,0,4,102.7,339.1
+7617,TR,Istanbul,M4,M4 Phase 2,2013,2016,0,4.4,100.00,4.4,0,0,3,107.3,472.0
+7618,TR,Istanbul,M5,M5 Phase 1,2011,2018,0,19.7,100.00,19.7,0,0,16,137.4,2706.9
+7624,TR,Istanbul,Marmaray,CR3,2011,2019,1,63,0.00,0,0,0,36,64.4,4057.3
+9501,TR,Istanbul,M4,M4 Phase 3,2015,2022,0,7.5,100.00,7.5,0,0,4,87.2,654.2
+9509,TR,Istanbul,M11,M11 Phase 1,2016,2022,0,37.5,100.00,37.5,0,0,9,113.9,4271.2
+9502,TR,Istanbul,M8,M8,2016,2022,0,14.3,100.00,14.3,0,0,11,167.8,2400.2
+9833,TR,Istanbul,M3,M3 Phase 3,2017,2022,0,6.2,100.00,6.2,0,0,4,136.4,845.7
+9510,TR,Istanbul,M11,M11 Phase 2,2018,2022,0,32,100.00,32,0,0,7,117.6,3762.2
+9500,TR,Istanbul,M3,M3 Phase 2,2015,2023,0,8.9,100.00,8.4,0,0,8,141.4,1258.7
+9835,TR,Istanbul,M9,M9,2016,2023,0,13.4,100.00,13.4,0,0,12,118.5,1588.2
+9508,TR,Istanbul,M12,M12,2017,2023,0,13,100.00,13,0,0,11,220.5,2866.8
+7625,TR,Istanbul,M7,M7 Phase1-2,2014,2024,0,23.75,96.21,22.85,0,0,19,142.6,3386.7
+11255,TR,Istanbul,M4 P4-M10,M4 P4-M10,2017,2024,0,14,100.00,14,0,0,8,100.9,1412.9
+,TR,Istanbul,M10,M10-P2,2022,2026,0,3.9,100.00,3.9,0,0,2,200.6,782.2
+9507,TR,Istanbul,M5,M5 Phase 2-M13,2016,2027,0,17.8,100.00,17.8,0,0,13,139.5,2483.4
+11254,TR,Istanbul,M1,M1B,2017,2027,0,9.7,95.00,9.3,0,0,10,332.8,3228.2
+9834,TR,Istanbul,M7,M7 Phase 3,2017,2027,0,18.5,97.30,18,0,0,11,199.0,3681.2
+7626,TR,Izmir,M1,M1 (Phase 1),1995,2000,0,11.6,29.31,3.4,0,0,10,204.4,2371.4
+7632,TR,Izmir,M1,M1 (Phase 3),2010,2012,0,2.25,100.00,2.25,0,0,2,67.5,151.8
+7627,TR,Izmir,M1,M1  (Phase 2),2005,2014,0,5.35,100.00,5.35,0,0,6,76.5,409.5
+7579,TW,Kaohsiung,Red and Orange Lines,Red and Orange Lines,2001,2008,0,43,74.00,31.8,0,0,38,477.4,20527.9
+7584,TW,Kaohsiung,Urban Railway Underground,Urban Railway Underground,2008,2018,1,15.4,100.00,15.4,0,0,10,595.4,9169.3
+7586,TW,Taichung,Green Line,Green Line,2010,2020,0,16.7,0.00,0,0,0,18,320.6,5354.6
+7585,TW,Tainan,Underground Project,Underground Project,2019,2024,1,8.2,100.00,8.2,0,0,3,282.6,2317.5
+9810,TW,Taipei,Neihu Line,Neihu Line,2002,2009,0,14.8,26.00,3.8,0,0,12,471.5,6977.7
+9809,TW,Taipei,"System to 2012, ex-Neihu","System to 2012, ex-Neihu",1988,2012,0,93.9,65.00,60.9,0,0,92,737.2,69218.7
+9811,TW,Taipei,Xinyi Line,Xinyi Line,2002,2013,0,6.5,100.00,6.5,0,0,7,618.9,4023.1
+7571,TW,Taipei,Airport MRT,Airport MRT,2006,2017,0,51,21.00,10.7,0,0,22,212.3,10825.5
+7570,TW,Taipei,Circular Line,Circular Line first section,2011,2020,0,15.4,7.00,1.1,0,0,14,410.0,6314.1
+9812,TW,Taipei,Xinyi Line,Xinyi Line East Extension,2016,2022,0,1.4,100.00,1.4,0,0,1,537.8,752.9
+7568,TW,Taipei,Sanying Line,Sanying Line,2016,2023,0,14.29,0.00,0,0,0,12,293.9,4199.8
+7569,TW,Taipei,Danhai LRT,Danhai LRT,2014,2024,0,14,0.00,0,0,0,20,97.4,1363.5
+7576,TW,Taipei,Taoyuan MRT Green Line,Taoyuan MRT Green Line,2019,2026,0,27.8,45.00,12.5,0,0,21,258.3,7181.5
+7232,TW,Taipei,Wanda Line,Wanda Line Phase 2,2021,2028,0,13.3,21.05,2.8,0,0,13,364.2,4843.8
+7578,TW,Taipei,Taoyuan Underground,Taoyuan Underground,2019,2030,1,17.9,100.00,17.9,0,0,8,391.7,7011.8
+11262,TW,Taipei,Keelung MRT,Keelung MRT,2023,2032,0,16,10.00,1.6,12.8,1.6,13,176.4,2822.0
+7577,TW,Taipei,Taoyuan MRT Brown Line,Taoyuan MRT Brown Line,2019,,0,11.5,0.00,0,0,0,8,140.5,1616.3
+7563,UA,Kharkiv,M3,M3 extension,2018,2024,0,3.5,100.00,3.5,0,0,2,506.0,1771.0
+7561,UA,Kyiv,M3,M3 to Vynohradar,2018,2022,0,3.7,100.00,3.7,0,0,2,243.9,902.5
+7562,UA,Kyiv,M4,M4,2021,2026,0,20,65.00,13,0,0,13,317.1,6342.9
+7336,UK,London,Jubilee line,Jubilee line extension,1993,1999,0,16,80.00,12.8,0,0,11,562.6,9002.0
+7417,UK,London,Crossrail,Elizabeth Line,2009,2022,1,21,100.00,21,0,0,8,1207.5,25358.5
+7226,UK,London,Northern Line,Northern Line Extension,2015,2021,0,3.2,100.00,3.2,0,0,2,724.4,2318.1
+7161,US,Boston,Green Line,Green Line Extension,2013,2022,0,7.6,0.00,0,0.78,6.82,7,374.9,2848.9
+,US,Chicago,Orange Line,Orange Line,1987,1993,0,14.4,0,0,4,10.4,7,85.6,1232.3
+9817,US,Honolulu,HART,HART,2011,2026,0,32,0.00,0,0,0,21,455.8,14586.5
+9818,US,Los Angeles,Crenshaw/LAX Line,Crenshaw/LAX Line,2014,2022,0,13.7,34.00,4.7,0,0,9,197.4,2704.4
+7155,US,Los Angeles,Regional Connector,Regional Connector,2014,2022,0,3.1,100.00,3.1,0,0,3,726.6,2252.6
+7154,US,Los Angeles,Purple Line,Purple Phase 1,2014,2024,0,6.3,100.00,6.3,0,0,3,570.1,3591.8
+7153,US,Los Angeles,Purple Line,Purple Phase 2,2018,2026,0,4.2,100.00,4.2,0,0,2,679.3,2853.0
+7152,US,Los Angeles,Purple Line,Purple Phase 3,2020,2027,0,4.2,100.00,4.2,0,0,2,906.1,3805.7
+9819,US,Miami,Metrorail extension to MIA,Metrorail extension to MIA,2009,2012,0,3.9,0.00,0,3.9,0,1,191.7,747.5
+7408,US,New York,Line 7,7 extension,2007,2014,0,1.6,100.00,1.6,0,0,1,2215.8,3545.3
+7409,US,New York,Second Avenue,Second Avenue Phase 1,2007,2016,0,2.7,100.00,2.7,0,0,3,2440.2,6588.7
+7411,US,New York,East Side Access,East Side Access,2007,2022,1,2.8,100.00,2.8,0,0,1,5339.1,14949.4
+7416,US,New York,Gateway,Gateway,2019,2026,1,5.3,100.00,5.3,0,0,0,1894.9,10042.9
+7410,US,New York,Second Avenue,Second Avenue Phase 2,2019,2029,0,2.6,100.00,2.6,0,0,3,2672.7,6949.0
+,US,Philadelphia,Regional Rail,Center City Commuter Connection,1976,1984,1,2.9,69,2,,,1,444.8,1290.0
+7160,US,San Francisco,Central Subway,Central Subway,2010,2021,0,2.7,100.00,2.7,0,0,4,841.6,2272.3
+7163,US,San Francisco,BART to San Jose,BART to San Jose,2024,2036,0,9.6,83.00,8,0,0,4,1270.8,12200.0
+7151,US,Seattle,U-Link,U-Link,2009,2016,0,5.1,100.00,5.1,0,0,2,483.1,2463.6
+9820,US,Seattle,West Seattle and Ballard,West Seattle and Ballard,2026,2036,0,19,32.00,6,0,0,13,808.4,15359.5
+9825,US,Washington,Silver Line,Silver Line Phase 1,2009,2014,0,18.8,4.00,0.7,0,0,5,227.1,4270.2
+9826,US,Washington,Silver Line,Silver Line Phase 2,2013,2022,0,18.3,0.00,0,0,0,6,219.0,4008.0
+9515,UZ,Tashkent,Sergeli Line,Sergeli Line,2017,2020,0,6.94,0.00,0,6.94,0,6,131.4,912.1
+9516,UZ,Tashkent,Yunusabad Line,Yunusabad Line extension,2017,2020,0,2.9,100.00,2.9,0,0,2,276.0,800.5
+7243,VN,Hanoi,Line 2,Line 2,2011,2021,0,11.5,74.00,8.5,2.99,0,12,291.2,3348.6
+7242,VN,Hanoi,Line 3,Line 3,2010,2024,0,12.5,32.00,4,8.5,0,12,471.1,5889.3
+7496,VN,Ho Chi Minh City,Line 1,Line 1,2012,2021,0,19.7,13.00,2.6,0,0,14,374.3,7373.0
+7497,VN,Ho Chi Minh City,Line 2,Line 2 first phase,2020,2026,0,11.3,82.00,9.3,0,0,11,565.8,6393.6
+7498,VN,Ho Chi Minh City,Line 5,Line 5 first phase,2025,2029,0,8.9,84.00,7.5,0,0,7,588.9,5241.6
+,UK,London,Docklands Light Railway,Extension to London City Airport,2004,2005,0,4.4,0.00,0,2.8,1.6,4,60.4,265.5
+,UK,London,Docklands Light Railway,Extension to Greewich/Lewisham,1996,1999,0,4.2,40.50,1.7,0.8,1.7,7,128.9,541.4
+,UK,London,Docklands Light Railway,Extension to Woowich Arsenal,2005,2009,0,2.5,91.13,2.3,0,0.25,1,166.3,415.6
+,UK,London,Docklands Light Railway,Bank Extension,1988,1991,0,2,80,1.79,0.2,0,1,263.0,528.6
+,UK,London,Docklands Light Railway,DLR Beckton Extension,1991,1994,0,12.73,0.00,0,4.92,7.81,12,71.7,912.9
+,UK,London,Heathrow Express,Heathrow Express,1993,1998,1,11.12,61.15,6.8,2.24,2.08,2,123.4,1372.3
+,UK,London,West Anglian Mainline,Stansted Rail link,1986,1991,1,3.02,30,0.9,,2.12,1,53.1,160.3
+,UK,London,Victoria Line,Brixton extension,1967,1971,0,5.63,100,5.63,0,0,4,71.8,404.1
+,UK,London,Victoria Line,Original Walthamstow Central - Victoria,1962,1969,0,16.989,100,16.989,0,0,12,93.7,1592.2
+,UK,London,Jubilee Line,Jubilee-Fleet Line Baker Street - Charing Cross,1971,1979,0,4.43,100,4.43,0,0,4,148.8,659.1
+,UK,London,Piccadilly Line,Heathrow Piccadilly Extension 1,1971,1977,0,5.6,84,4.69,0,0.91,2,46.2,258.6
+,UK,London,Piccadilly Line,Heathrow Piccadilly Extension 2,1983,1986,0,2.9,100,2.9,0,0,1,42.2,122.4
+,UK,London,Barking Riverside Extension,London Overground Suffragette Line,2017,2022,Yes,4,0,,1.5,2.4,1,140.6,562.4
+,JP,Sendai,Namboku Line (Sendai),Yaotome - Izumi-Chuo,1986,1992,0,1.1,18.18,0.2,1,,1,109.1,120.0
+,JP,Sendai,Namboku Line (Sendai),Tomisawa - Yaotome,1981,1987,0,15.44,76,11.59,2.75,,16,210.2,3245.7
+,JP,Sendai,Tozai Line (Sendai),Arai - Yagiyama Zoological Park,2006,2015,0,14.4,95.83,13.78,0.6,,13,212.3,3057.0
+,JP,Sendai,Airport Line,Sendai Airport - Natori,2002,2007,1,3.55,8,0.3,5.8,0.4,3,119.7,424.8
+,JP,Sendai,Senseki Line,Nigatake - Aobadoori,1981,2000,1,3.9,89.74,3.5,,0.4,5,202.8,790.8
+,JP,Sapporo,Namboku (Sapporo) Line,Kita Junijijou -Hiragishi,1969,1971,,7.95,100,7.95,,,9,139.5,1109.1
+,JP,Sapporo,Namboku (Sapporo) Line,Hiragishi - Makomanai,1970,1971,,4.675,0.04,0.175,4.5,,4,91.2,426.6
+,JP,Sapporo,Namboku (Sapporo) Line,Kita Junijijou -Asabu,1974,1978,,2.2,100,2.2,,,3,317.5,698.4
+,JP,Sapporo,Tozai (Sapporo),Miyanosawa-Kotoni,1995,1999,,2.79,100,2.79,,,3,204.9,571.5
+,JP,Sapporo,Tozai (Sapporo),Kotoni-Shiroishi,1973,1976,,10.67,100,10.67,,,11,206.3,2201.0
+,JP,Sapporo,Tozai (Sapporo),Shiroish-Shin-Sapporo,1978,1982,,7.34,100,7.34,,,7,268.0,1967.5
+,JP,Sapporo,Toho Line,Sakaemachi-Hosuisusukino,1983,1988,,8.995,100,8.995,,,9,357.9,3218.9
+,JP,Sapporo,Toho Line,Hosuisusukino-Fukuzumi,1990,1994,,5.535,100,5.535,,,5,212.1,1174.1
+,JP,Tokyo,Yokohama Subway Blue Line,Shin-Yokohama-Azumino,1987,1993,,10.7,39.25,4.2,6.5,,7,228.5,2445.5
+,JP,Tokyo,Yokohama Subway Blue Line,Totsuka-Shonandai,1995,1999,,7.4,95.95,7.1,0.3,,6,264.8,1959.2
+,JP,Tokyo,Yokohama Subway Green Line,Nakayama-Hiyoshi,2001,2008,,13.1,81.68,10.7,2.4,,10,235.7,3088.2
+,JP,Tokyo,Yokohama Subway Blue Line,Kamiooka- Isezaki Choujamachi,1967,1972,,5.7,100,5.7,,,6,170.2,970.2
+,JP,Tokyo,Yokohama Subway Blue Line,Kamiooka-Kami Nagaya/ Isezaki Chojamachi - Yokohama,1973,1976,,6.6,100,6.6,,,6,222.7,1470.0
+,JP,Tokyo,Yokohama Subway Blue Line,Kami Nagaya - Totsuka,1983,1985,,9.1,82.36,7.495,1.605,,4,237.8,2163.7
+,JP,Tokyo,Yokohama Subway Blue Line,Maioka-Totsuka,1983,1987,,1.6,100,1.6,,,2,365.0,583.9
+,JP,Nagoya,Tsurumai Line,Kami-Otai-Shonai Ryokuchi Koen,1981,1993,,1.4,100,1.4,,,1,345.9,484.2
+,JP,Nagoya,Sakuradoori Line,Imaike-Nonami,1987,1994,,8.3,100,8.3,,,9,260.0,2157.8
+,JP,Nagoya,Kami-Iida/Meijo Line,Heiandoori-Kamiida/Ozone-Sunadabashi/Sunadabashi-Nagoya Daigaku,1996,2003,,6.2,100,6.2,,,8,325.6,2019.0
+,JP,Nagoya,Meijo Line,Nagoya Daigaku - Aratamabashi,1997,2004,,5.1,100,5.1,,,5,233.2,1189.3
+,JP,Nagoya,Sakuradoori Line,Nonami-Tokushige,2006,2011,,4.1,100,4.1,,,4,218.3,894.9
+,JP,Nagoya,Sakuradoori Line,(Taiko-doori) Nakamura Shiyakusho - Imaike,1983,1989,,7.5,100,7.5,,,8,453.4,3400.5
+,JP,Nagoya,Higashiyama Line,Nagoya Station-Sakaemachi Station,1954,1957,,2.6,100,2.6,,,3,69.4,180.5
+,JP,Nagoya,Higashiyama Line,Sakaemachi-Ikeshita,1954,1960,,3.5,100,3.5,,,4,70.6,247.2
+,JP,Nagoya,Higashiyama Line,Ikeshita-Higashiyama Koen,1961,1963,,2.6,100,2.6,,,3,101.1,262.9
+,JP,Nagoya,Meijo Line,Sakaemachi-Shiyakusho (Nagoya Jo now)/Sakae-Kaneyama,1964,1967,,4.6,100,4.6,,,7,97.3,447.6
+,JP,Nagoya,Higashiayama Lines,Higashiyama Koen -Hoshigaoka,1965,1967,,1.2,100,1.2,,,1,93.0,111.6
+,JP,Nagoya,Higashiyama Line,"Hoshigaoka-Fujigaoka, Nagoya-Nakamura Kouen",1962,1969,,8.5,56,4.8,3.7,,4,90.4,768.5
+,JP,Nagoya,Meiko Line,Kaneyama-Nagoyako,1969,1971,,6.1,100,6.1,,,7,138.3,843.6
+,JP,Nagoya,Meijo Line,Shiyakusho-Ozone,1969,1971,,4.6,100,4.6,,,5,147.8,680.0
+,JP,Nagoya,Meijo Line,Kaneyama-Aratamebashi,1971,1974,,5.6,100,5.6,,,6,116.2,650.6
+,JP,Nagoya,Tsurumai Line,Fushimi-Yagoto,1973,1977,,8.4,100,8.4,,,8,165.2,1387.5
+,JP,Nagoya,Tsurumai Line,Yakoto-Shiogamaguchi-Akaike,1975,1978,,5.7,95,5.4,0.3,,5,181.8,1036.3
+,JP,Nagoya,Tsurumai Line,Joushin-Fushimi,1977,1981,,2.9,100,2.9,,,3,259.4,752.4
+,JP,Nagoya,Higashiyama Line,Nakamura Koen-Takabata,1978,1982,,3,100,3,,,3,301.5,904.4
+,JP,Nagoya,Tsurumai Line,Shōnai Ryokuchi Kōen-Joushin,1980,1984,,2.8,100,2.8,,,2,227.3,636.6
+,JP,Kobe,Kaigan Line,ShinNagata- Sannomiya Hanadoke,1994,2001,,8.1,100,8.1,,,10,344.6,2791.0
+,JP,Kobe,Hokushin Line,Shin-Kobe - Tanigami,1982,1988,,7.9,95,7.5,0.4,,2,98.2,775.6
+,JP,Osaka,Imazatosuji Line,Imazato - Itakono,2000,2006,,12.1,100,12.1,,,11,276.0,3340.0
+,JP,Osaka,Nagahori Tsurumi Ryokichi Line,Kyoubashi - Tsurumi Ryokuchi,1986,1990,,5.6,100,5.6,,,5,259.9,1455.4
+,JP,Osaka,Nagahori Tsurumi Ryokichi Line,Shinsaibashi - Kyoubashi,1987,1996,,5.5,100,5.5,,,7,342.7,1884.6
+,JP,Osaka,Nagahori Tsurumi Ryokichi Line,Taisho - Shinsaibashi,1987,1997,,2.9,100,2.9,,,4,343.7,996.7
+,JP,Osaka,Nagahori Tsurumi Ryokichi Line,Tsurumi Ryokuchi - Kadoma Minami,1987,1997,,1.3,100,1.3,,,1,220.7,286.9
+,JP,Osaka,Sakaisuji Line,Doubutsuenmae - Tengachaya,1984?,1993,,1.7,100,1.7,,,1,493.4,838.8
+,JP,Osaka,Chuo Line,Cosmosquare - Yumeshima,2019,2026,0,3.2,100,3.2,,,1,114.5,366.3
+,JP,Osaka,Kita-Osaka Line Extentension,Kita-Osaka Line,2016,2024,,2.5,68,1.7,0.8,,2,376.2,940.4
+,JP,Tokyo,Saitama Kosoku Tetsudo,Akabane Iwabuchi - Urawa Misono,1995,2001,1,14.6,97.26,14.2,,0.4,7,213.2,3112.8
+,JP,Tokyo,Toyo Kosoku Line,Nishi-Funabashi - Katsutadai,1985,1996,1,16.2,35.19,5.7,10.5,,9,235.7,3818.0
+,JP,Fukuoka,Nanakuma Phase 1,Tenjin Minami-Hashimoto,1996,2005,,12,100,12,,,16,298.2,3578.8
+,JP,Hiroshima,Astram Line 1,Hondoori - Kouuiki-en-mae,1988,1994,,18.7,11.96,2.2,16.5,,22,51.2,957.7

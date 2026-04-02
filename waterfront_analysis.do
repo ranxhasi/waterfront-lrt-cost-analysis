@@ -1,6 +1,5 @@
 
 clear all
-set more off
 *Add your directory here
 cd ""
 
